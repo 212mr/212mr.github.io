@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1216px" height="761px" viewBox="0 0 1216 761" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Sample Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Sample-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="main-page" transform="translate(20.000000, 82.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="120" height="132" rx="5"></rect>
+            <path d="M0,15 L120,15 L120,126.991386 C120,129.757567 117.762654,132 114.996527,132 L5.00347316,132 C2.24013124,132 0,129.767244 0,126.991386 L0,15 Z" id="Rectangle-7" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="14.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="21.5" cy="7.5" r="2.5"></circle>
+            <text id="Index.php" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.216666698" fill="#89969F">
+                <tspan x="29.6622069" y="75">Index.php</tspan>
+            </text>
+        </g>
+        <g id="main-page-copy-3" transform="translate(556.000000, 82.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="123" height="132" rx="5"></rect>
+            <path d="M0,15 L123,15 L123,126.991386 C123,129.757567 120.760107,132 118.006721,132 L4.99327895,132 C2.23556713,132 0,129.767244 0,126.991386 L0,15 Z" id="Rectangle-7" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="14.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="21.5" cy="7.5" r="2.5"></circle>
+            <text id="Shop" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.216666698" fill="#89969F">
+                <tspan x="46.6113932" y="69">Shop</tspan>
+            </text>
+        </g>
+        <rect id="Rectangle-7" fill="#B8C5D0" x="89" y="222" width="80" height="74" rx="5"></rect>
+        <path d="M89,229 L169,229 L169,290.991511 C169,293.757623 166.755779,296 163.995642,296 L94.0043583,296 C91.2405275,296 89,293.77079 89,290.991511 L89,229 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+        <circle id="Oval-4" fill="#DEE7EE" cx="93" cy="225" r="1"></circle>
+        <circle id="Oval-4" fill="#DEE7EE" cx="96" cy="225" r="1"></circle>
+        <circle id="Oval-4" fill="#DEE7EE" cx="100" cy="225" r="1"></circle>
+        <g id="inner-page-copy-4" transform="translate(624.000000, 227.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-14" transform="translate(299.000000, 223.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy" transform="translate(89.000000, 316.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-5" transform="translate(624.000000, 321.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-15" transform="translate(299.000000, 317.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-16" transform="translate(299.000000, 415.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-17" transform="translate(299.000000, 513.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-10" transform="translate(839.000000, 278.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-9" transform="translate(624.000000, 576.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="80" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,74.9967887 C80,77.759986 77.7557794,80 74.9956417,80 L5.00435829,80 C2.24052752,80 0,77.7553421 0,74.9967887 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-2" transform="translate(89.000000, 403.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-6" transform="translate(728.000000, 401.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="40" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,35.0059354 C80,37.7640811 77.7557794,40 74.9956417,40 L5.00435829,40 C2.24052752,40 0,37.7577202 0,35.0059354 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-18" transform="translate(443.000000, 542.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="40" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,35.0059354 C80,37.7640811 77.7557794,40 74.9956417,40 L5.00435829,40 C2.24052752,40 0,37.7577202 0,35.0059354 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-11" transform="translate(943.000000, 365.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="40" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,35.0059354 C80,37.7640811 77.7557794,40 74.9956417,40 L5.00435829,40 C2.24052752,40 0,37.7577202 0,35.0059354 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-3" transform="translate(89.000000, 497.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="74" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,68.9915111 C80,71.7576231 77.7557794,74 74.9956417,74 L5.00435829,74 C2.24052752,74 0,71.7707901 0,68.9915111 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-7" transform="translate(728.000000, 460.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="30" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,25.0093426 C80,27.7656066 77.7557794,30 74.9956417,30 L5.00435829,30 C2.24052752,30 0,27.7527859 0,25.0093426 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-19" transform="translate(443.000000, 589.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="45" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,39.9930877 C80,42.758329 77.7557794,45 74.9956417,45 L5.00435829,45 C2.24052752,45 0,42.7647948 0,39.9930877 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-12" transform="translate(943.000000, 424.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="30" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,25.0093426 C80,27.7656066 77.7557794,30 74.9956417,30 L5.00435829,30 C2.24052752,30 0,27.7527859 0,25.0093426 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-8" transform="translate(728.000000, 510.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="30" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,25.0093426 C80,27.7656066 77.7557794,30 74.9956417,30 L5.00435829,30 C2.24052752,30 0,27.7527859 0,25.0093426 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-20" transform="translate(443.000000, 641.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="45" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,39.9930877 C80,42.758329 77.7557794,45 74.9956417,45 L5.00435829,45 C2.24052752,45 0,42.7647948 0,39.9930877 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="inner-page-copy-13" transform="translate(943.000000, 474.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="80" height="30" rx="5"></rect>
+            <path d="M0,7 L80,7 L80,25.0093426 C80,27.7656066 77.7557794,30 74.9956417,30 L5.00435829,30 C2.24052752,30 0,27.7527859 0,25.0093426 L0,7 Z" id="Rectangle-7-Copy" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="4" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7" cy="3" r="1"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="11" cy="3" r="1"></circle>
+        </g>
+        <g id="main-page-copy" transform="translate(230.000000, 82.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="120" height="132" rx="5"></rect>
+            <path d="M0,15 L120,15 L120,126.991386 C120,129.757567 117.762654,132 114.996527,132 L5.00347316,132 C2.24013124,132 0,129.767244 0,126.991386 L0,15 Z" id="Rectangle-7" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="14.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="21.5" cy="7.5" r="2.5"></circle>
+            <text id="Sign-Up/Sign-In" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.216666698" fill="#89969F">
+                <tspan x="12.5971677" y="75">Sign Up/Sign In</tspan>
+            </text>
+        </g>
+        <g id="main-page-copy-4" transform="translate(779.000000, 82.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="120" height="132" rx="5"></rect>
+            <path d="M0,15 L120,15 L120,126.991386 C120,129.757567 117.762654,132 114.996527,132 L5.00347316,132 C2.24013124,132 0,129.767244 0,126.991386 L0,15 Z" id="Rectangle-7" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="14.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="21.5" cy="7.5" r="2.5"></circle>
+            <text id="Cart" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.216666698" fill="#89969F">
+                <tspan x="47.6030436" y="69">Cart</tspan>
+            </text>
+        </g>
+        <g id="main-page-copy-5" transform="translate(1084.000000, 368.000000)">
+            <rect id="Rectangle-7" fill="#B8C5D0" x="0" y="0" width="120" height="132" rx="5"></rect>
+            <path d="M0,15 L120,15 L120,126.991386 C120,129.757567 117.762654,132 114.996527,132 L5.00347316,132 C2.24013124,132 0,129.767244 0,126.991386 L0,15 Z" id="Rectangle-7" fill="#EEF2F6"></path>
+            <circle id="Oval-4" fill="#DEE7EE" cx="7.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="14.5" cy="7.5" r="2.5"></circle>
+            <circle id="Oval-4" fill="#DEE7EE" cx="21.5" cy="7.5" r="2.5"></circle>
+            <text id="Subtotal-Checkout" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.216666698" fill="#89969F">
+                <tspan x="35.1599445" y="69">Subtotal</tspan>
+                <tspan x="31.8591633" y="84">Checkout</tspan>
+            </text>
+        </g>
+        <circle id="Oval-4" fill="#DEE7EE" cx="128" cy="411" r="1"></circle>
+        <circle id="Oval-4-Copy" fill="#DEE7EE" cx="641" cy="416" r="1"></circle>
+        <circle id="Oval-4-Copy-7" fill="#DEE7EE" cx="395" cy="555" r="1"></circle>
+        <circle id="Oval-4-Copy-4" fill="#DEE7EE" cx="895" cy="375" r="1"></circle>
+        <circle id="Oval-4" fill="#DEE7EE" cx="128" cy="411" r="1"></circle>
+        <circle id="Oval-4-Copy-2" fill="#DEE7EE" cx="684" cy="411" r="1"></circle>
+        <circle id="Oval-4-Copy-8" fill="#DEE7EE" cx="399" cy="555" r="1"></circle>
+        <circle id="Oval-4-Copy-5" fill="#DEE7EE" cx="899" cy="375" r="1"></circle>
+        <circle id="Oval-4" fill="#DEE7EE" cx="128" cy="411" r="1"></circle>
+        <circle id="Oval-4-Copy-3" fill="#DEE7EE" cx="687" cy="411" r="1"></circle>
+        <circle id="Oval-4-Copy-9" fill="#DEE7EE" cx="402" cy="555" r="1"></circle>
+        <circle id="Oval-4-Copy-6" fill="#DEE7EE" cx="902" cy="375" r="1"></circle>
+        <g id="arrows/arrow-7.1" transform="translate(20.000000, 205.000000)">
+            <g id="arrow-7.1">
+                <path d="M3,0 L3,47.9964348 C3,53.5212513 7.46789355,58 13.0039079,58 L61.4840208,58" id="Path-6" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="60 61 60 55 63 58"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7.1" transform="translate(554.000000, 206.000000)">
+            <g id="arrow-7.1">
+                <path d="M3,0 L3,47.9964348 C3,53.5212513 7.46789355,58 13.0039079,58 L61.4840208,58" id="Path-6" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="60 61 60 55 63 58"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7.1" transform="translate(661.000000, 380.000000)">
+            <g id="arrow-7.1">
+                <path d="M3,0 L3,31.9933138 C3,37.519854 7.46789355,42 13.0039079,42 L61.4840208,42" id="Path-6" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="60 45 60 39 63 42"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7.1" transform="translate(876.000000, 340.000000)">
+            <g id="arrow-7.1">
+                <path d="M3,0 L3,37.0037527 C3,42.5245276 7.46789355,47 13.0039079,47 L61.4840208,47" id="Path-6" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="60 50 60 44 63 47"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7.1" transform="translate(779.000000, 206.000000)">
+            <g id="arrow-7.1">
+                <path d="M3,0 L3,99.995475 C3,105.520822 7.46789355,110 13.0039079,110 L61.4840208,110" id="Path-6" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="60 113 60 107 63 110"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7.1" transform="translate(229.000000, 206.000000)">
+            <g id="arrow-7.1">
+                <path d="M3,0 L3,47.9964348 C3,53.5212513 7.46789355,58 13.0039079,58 L61.4840208,58" id="Path-6" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="3" cy="3" r="3"></circle>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="60 61 60 55 63 58"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(23.000000, 244.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.11847629e-15,99.995475 C3.29030373e-15,105.520822 4.46789355,110 10.0039079,110 L58.4840208,110" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 113 57 107 60 110"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(557.000000, 249.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.11847629e-15,99.995475 C3.29030373e-15,105.520822 4.46789355,110 10.0039079,110 L58.4840208,110" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 113 57 107 60 110"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(232.000000, 245.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.11847629e-15,99.995475 C3.29030373e-15,105.520822 4.46789355,110 10.0039079,110 L58.4840208,110" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 113 57 107 60 110"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(232.000000, 343.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.11847629e-15,99.995475 C3.29030373e-15,105.520822 4.46789355,110 10.0039079,110 L58.4840208,110" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 113 57 107 60 110"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(232.000000, 439.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.11847629e-15,99.995475 C3.29030373e-15,105.520822 4.46789355,110 10.0039079,110 L58.4840208,110" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 113 57 107 60 110"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(557.000000, 343.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.30302554e-15,260.009776 C3.37292924e-15,265.527224 4.46789355,270 10.0039079,270 L58.4840208,270" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 273 57 267 60 270"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(23.000000, 345.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.0977111e-15,93.0068856 C3.28100684e-15,98.5259303 4.46789355,103 10.0039079,103 L58.4840208,103" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 106 57 100 60 103"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(23.000000, 434.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L3.0977111e-15,93.0068856 C3.28100684e-15,98.5259303 4.46789355,103 10.0039079,103 L58.4840208,103" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 106 57 100 60 103"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(664.000000, 411.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L2.88661924e-15,53.0000639 C3.18649779e-15,58.5228761 4.46789355,63 10.0039079,63 L58.4840208,63" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 66 57 60 60 63"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(380.000000, 550.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L2.88661924e-15,53.0000639 C3.18649779e-15,58.5228761 4.46789355,63 10.0039079,63 L58.4840208,63" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 66 57 60 60 63"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(879.000000, 376.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L2.88661924e-15,53.0000639 C3.18649779e-15,58.5228761 4.46789355,63 10.0039079,63 L58.4840208,63" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 66 57 60 60 63"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(664.000000, 467.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L2.83959673e-15,47.9964348 C3.1654451e-15,53.5212513 4.46789355,58 10.0039079,58 L58.4840208,58" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 61 57 55 60 58"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(380.000000, 602.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L2.83959673e-15,47.9964348 C3.1654451e-15,53.5212513 4.46789355,58 10.0039079,58 L58.4840208,58" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 61 57 55 60 58"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-7" transform="translate(879.000000, 431.000000)">
+            <g id="arrow-7">
+                <path d="M8.81313692e-18,0 L2.83959673e-15,47.9964348 C3.1654451e-15,53.5212513 4.46789355,58 10.0039079,58 L58.4840208,58" id="Path-6" stroke="#89969F"></path>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="57 61 57 55 60 58"></polygon>
+            </g>
+        </g>
+        <g id="arrows/arrow-4.1" transform="translate(1063.000000, 439.000000) scale(-1, 1) translate(-1063.000000, -439.000000) translate(1023.000000, 386.000000)">
+            <g id="arrow-4.1">
+                <path d="M79,3 L70,3 C65.0294373,3 61,7.02839571 61,12.0064763 L61,93.9935237 C61,98.9676632 65.0283444,103 70,103 L79,103" id="Path-4" stroke="#89969F"></path>
+                <path d="M61.5185909,52.9206349 L0.995833406,52.9206349" id="Path-5" stroke="#89969F"></path>
+                <circle id="Oval--Copy-3" stroke="#89969F" fill="#FFFFFF" cx="4" cy="53" r="3"></circle>
+                <polygon id="Triangle-2-Copy-2" fill="#89969F" points="77 6 77 0 80 3"></polygon>
+                <polygon id="Triangle-2-Copy-4" fill="#89969F" points="77 106 77 100 80 103"></polygon>
+            </g>
+        </g>
+        <text id="Logo" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="114.4861" y="265">Logo</tspan>
+        </text>
+        <text id="Gallery" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="643.178434" y="272">Gallery</tspan>
+        </text>
+        <text id="Sign-In" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="318.018034" y="262">Sign In</tspan>
+        </text>
+        <text id="Sign-Up" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="316.115446" y="360">Sign Up</tspan>
+        </text>
+        <text id="Sign-Out" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="313.123568" y="458">Sign Out</tspan>
+        </text>
+        <text id="Admin" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="319.431234" y="553">Admin</tspan>
+        </text>
+        <text id="Introduction" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="92.111865" y="361">Introduction</tspan>
+        </text>
+        <text id="Product" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="640.231413" y="366">Product</tspan>
+        </text>
+        <text id="Products-in-cart" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="852.281038" y="316">Products</tspan>
+            <tspan x="860.158903" y="331">in cart</tspan>
+        </text>
+        <text id="Sort-by-price-by-tim" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="628" y="599">Sort</tspan>
+            <tspan x="628" y="614" font-size="12">by price</tspan>
+            <tspan x="628" y="628" font-size="12">by time</tspan>
+            <tspan x="628" y="642" font-size="12">by relevance</tspan>
+        </text>
+        <text id="Mission-Service" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="105.101286" y="443">Mission</tspan>
+            <tspan x="106.393034" y="458">Service</tspan>
+        </text>
+        <text id="Product-Image" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="743.231413" y="421">Product</tspan>
+            <tspan x="748.227865" y="436">Image</tspan>
+        </text>
+        <text id="Product-List" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="458.231413" y="562">Product</tspan>
+            <tspan x="470.785172" y="577">List</tspan>
+        </text>
+        <text id="Product-Image-Copy" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="958.231413" y="385">Product</tspan>
+            <tspan x="963.227865" y="400">Image</tspan>
+        </text>
+        <text id="Service-Steps" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="106.393034" y="537">Service</tspan>
+            <tspan x="111.751302" y="552">Steps</tspan>
+        </text>
+        <text id="Price" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="763.268392" y="482">Price</tspan>
+        </text>
+        <text id="Add-New-Product" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="471.976269" y="611">Add </tspan>
+            <tspan x="448.185286" y="626" font-size="12">New Product</tspan>
+        </text>
+        <text id="Price-Copy" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="967.268392" y="446">Price</tspan>
+        </text>
+        <text id="Likes" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="762.451009" y="533">Likes</tspan>
+        </text>
+        <text id="Renew-Product-List" font-family="Roboto-Bold, Roboto" font-size="12" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="464.373372" y="664">Renew</tspan>
+            <tspan x="449.013476" y="678">Product List</tspan>
+        </text>
+        <text id="Amount" font-family="Roboto-Bold, Roboto" font-size="13" font-weight="bold" letter-spacing="0.2166667" fill="#89969F">
+            <tspan x="962.352441" y="497">Amount</tspan>
+        </text>
+        <g id="arrows/arrow-1" transform="translate(409.500000, 552.500000) scale(1, -1) translate(-409.500000, -552.500000) translate(378.000000, 545.000000)">
+            <g id="arrow-1">
+                <path d="M1,7.5 L61.8459596,7.5" id="Line" stroke="#89969F" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#89969F" fill="#FFFFFF" cx="2.5" cy="7.5" r="2.5"></circle>
+                <polygon id="Triangle" fill="#89969F" points="60 10 60 5 63 7.5"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
