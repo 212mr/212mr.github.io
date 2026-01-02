@@ -1,0 +1,10 @@
+# Large design files (not tracked in git)
+pineconeBeta/materials/*.psd
+
+# Backups of large original images (kept locally, not tracked)
+
+# Exclude case-study image folders from repo (kept only locally)
+
+pineconeBeta/materials/forStore.psd
+
+pineconeBeta/materials/

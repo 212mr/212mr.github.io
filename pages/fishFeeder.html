@@ -1,0 +1,434 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <title>Mengru Zhang | PORTFOLIO</title>
+    <link rel="icon" type="image/icon" href="../images/logo-MZ-round-black-01.png"/>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <!--[if lte IE 8]>
+    <script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="../assets/css/main.css"/>
+    <link rel="stylesheet" href="../assets/css/zz.css"/>
+    <!--[if lte IE 9]>
+    <link rel="stylesheet" href="../assets/css/ie9.css"/><![endif]-->
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="../assets/css/ie8.css"/><![endif]-->
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+    <!-- other things when necessary -->
+    <link href="../assets/css/animate.css" rel="stylesheet">
+
+    <style>
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .embed-container iframe, .embed-container object, .embed-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Wrapper -->
+<div id="wrapper">
+
+    <!-- Main -->
+    <div id="main">
+        <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="../index.html" class="logo"><strong>Mengru Zhang</strong> | PORTFOLIO</a>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/mengru-zhang-43264810a/" target="_blank"
+                           class="icon fa-linkedin-square"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/212mr" target="_blank" class="icon fa-github-square"><span
+                            class="label">GitHub</span></a></li>
+                    <li><a href="https://codepen.io/MengruZhang/" target="_blank" class="icon fa-codepen"><span
+                            class="label">Codepen</span></a></li>
+                    <li><a href="https://www.behance.net/zhangmengru" target="_blank" class="icon fa-behance"><span
+                            class="label">Behance</span></a></li>
+                    <li><a href="https://dribbble.com/mengruzhang" target="_blank" class="icon fa-dribbble"><span
+                            class="label">Dribble</span></a></li>
+                </ul>
+            </header>
+
+            <!-- Content -->
+            <!-- Banner -->
+            <section id="banner">
+                <div class="content">
+                    <header>
+                        <h1>FISH FEEDER </h1>
+                        <p>An IoT Project</p>
+                    </header>
+                    <p>This is an Internet of Things project I made in May 2018.
+                        It is a fish tank with a water temperature sensor, an LCD screen and a servo to control the
+                        feeder. Users can read live water temperature from the LCD screen. The fish feeder automatically
+                        feeds the fish once every 24 hours.
+
+                    </p>
+                    <ul class="actions">
+                        <li><a href="pages/aboutme.html" class="button big">View on GitHub &nbsp; <i
+                                class="icon fa-github-square fa-lg"></i></a></li>
+                    </ul>
+                </div>
+                <span class="image object project-thumb" align="center">
+											<img src="../images/fish/fish_small.png" alt="lego tank"/>
+										</span>
+            </section>
+
+            <hr class="major"/>
+
+            <h2>What hardware do we need?</h2>
+
+            <p>I use <a href="https://store.arduino.cc/usa/arduino-uno-rev3" class="aRed">Arduino UNO REV3</a>. We also
+                need BreadBoard + Jumper Wires, resistor,
+                <a href="https://create.arduino.cc/projecthub/iotboys/how-to-use-ds18b20-water-proof-temperature-sensor-2adecc"
+                   class="aRed">temperature
+                    sensor - waterproof DS18B20</a>. To show the water temperature on a screen, we need the <a
+                        href="https://www.arduino.cc/en/Tutorial/LiquidCrystalDisplay" class="aRed">LCD Screen</a> and
+                the fish feeder is made by <a href="https://www.arduino.cc/en/Reference/Servo" class="aRed">SERVO</a>. I
+                got the LCD screen and servo from the
+                <a href="https://www.amazon.com/gp/product/B00C9NWMYS/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1"
+                   target="_blank" class="aRed">ARDUINO 2171188 K000007 The Starter Kit</a>.
+                <br>
+                And my fish tank is <a
+                        href="https://www.amazon.com/gp/product/B01LZMHWF6/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1"
+                        target="_blank" class="aRed">'Back to the Roots Water Garden Betta Fish Tank'</a> from Amazon.
+            </p>
+
+            <br>
+
+            <h2>What software do we need?</h2>
+
+            <p>I use <a href="https://nodejs.org/en/">NodeJS</a> . We also need Johnny-Five the JavaScript platform for
+                Robotics and IoT. With
+                Johnny-Five, all was much simpler.
+                <br>
+                I used Johnny Five to connect to our Temperature Sensor connected through the Arduino board, and we basically listened to data changes (temperature readings) before then creating a file to write the readings line by line with one-hour frequency. Codes refer to the Johnny Five API docs:
+                <a href="http://johnny-five.io/api/" target="_blank" class="aRed">http://johnny-five.io/api/</a>
+            </p>
+
+            <br>
+
+            <h2>Install the Water Temperature Sensor</h2>
+            <p>
+                I had our Arduino board connected and Arduino IDE running. All we needed to do now is write a simple application in Node which logged into the Arduino's temperature sensor.
+                In Arduino IDE, you must go to: <code class="aRed">File -> Examples -> ConfigurableFirmata </code> and click the
+                <b> 'load' </b> button (<b>YOU MUST DO THIS,</b> otherwise the water temperature sensor won't show the
+                correct temperature on the LCD or any console.log). Or
+                we can get the ConfigurableFirmata from here
+                <a href="https://github.com/firmata/ConfigurableFirmata" target="_blank" class="aRed">https://github.com/firmata/ConfigurableFirmata</a>
+                <br>
+                <br>
+
+                Alternatively, the app written in JavaScript is published on GitHub as an open source code so let's dive in and check what we've got there. We can clone the app from <a href="https://github.com/juliancwirko/arduino-temperature-logger"
+                                             target="_blank" class="aRed">https://github.com/juliancwirko/arduino-temperature-logger</a>
+            </p>
+
+            <br>
+            <br>
+
+            <h2>What else?</h2>
+            <p>I stuck a small bottle on to the servo before drilling a small hole on the bottle. When the servo is spinning, the fish food will drop through the hole. This is how the servo feeds the fish! I also used Lego to make a box container to cover the breadboard and wires. But you can use anything you like. Be creative :D
+                <br>
+                <br>
+                <b>Other references you may need:</b>
+                <br>
+                <a href="https://mahr.io/tutorial/johnny-five-arduino" target="_blank" class="aRed">Johnny-Five and
+                    Arduino (up and running with Arduino and Johnny-Five platform)</a><br>
+                <a href="http://johnny-five.io/examples/lcd/" target="_blank" class="aRed">Set up the LCD screen with a
+                    knob</a><br>
+                <a href="https://github.com/rwaldron/johnny-five/wiki/Servo" target="_blank" class="aRed">Set up the
+                    servo</a><br>
+                <a href="https://mahr.io/tutorial/read-button-using-johnny-five-and-arduino" target="_blank"
+                   class="aRed">Set up a button to control things</a><br>
+            </p>
+
+            <hr class="major"/>
+
+            <h2>Materials</h2>
+            <div class="box alt">
+                <div class="row">
+                    <div class="3u">
+                        <p>Arduino Uno</p>
+                        <span class="image fit"><img src="../images/fish/uno.png" alt="uno"/></span></div>
+                    <div class="3u">
+                        <p><span class="ZZ-sm-none">Water Temperature Sensor</span> DS18B20</p>
+                        <span class="image fit"><img src="../images/fish/water_sensor.jpg" alt="water temp"/></span>
+                    </div>
+                    <div class="3u">
+                        <p>Servo</p>
+                        <span class="image fit"><img src="../images/fish/servo.jpg" alt="servo"/></span></div>
+                    <div class="3u$">
+                        <p>LCD Screen</p>
+                        <span class="image fit"><img src="../images/fish/lcd.jpg" alt="LCD"/></span></div>
+                    <!-- Break -->
+                    <div class="6u"><span class="image fit"><img src="../images/fish/fish_sketch0.png"
+                                                                 alt="hand-sketch"/></span></div>
+                    <div class="6u"><span class="image fit"><img src="../images/fish/lego.jpg" alt="lego"/></span></div>
+                    <!-- <div class="6u"><span class="image fit"><img src="../images/fish/bottle.jpg" alt="bottle" /></span></div> -->
+                    <!-- Break -->
+                    <div class="3u"><span class="image fit"><img src="../images/fish/uno_table.png" alt=""/></span>
+                    </div>
+                    <div class="3u"><span class="image fit"><img src="../images/fish/uno_tank.png" alt=""/></span></div>
+                    <div class="3u"><span class="image fit"><img src="../images/fish/lego_servo.png" alt=""/></span>
+                    </div>
+                    <div class="3u$"><span class="image fit"><img src="../images/fish/lego_tank.png" alt=""/></span>
+                    </div>
+                    <!-- Break -->
+                    <!-- <div class="6u"><span class="image fit"><img src="../images/fish/fish_sketch0.png" alt="hand-sketch" /></span></div>
+                    <div class="6u"><span class="image fit"><img src="../images/fish/lego_tank_window.jpg" alt="window" /></span></div> -->
+                    <!-- Break -->
+                    <span class="image main"><img src="../images/fish/firz.png" alt="frizt"/></span>
+                    <br>
+                    <p>Codes on <a href="https://github.com/212mr/725nodejsHomework1" target="_blank"> GitHub <i
+                            class="icon fa-github-square fa-lg"></i></a></p>
+                    <br>
+                    <pre>
+													<code>var five = require("johnny-five"), board, button, servo, lcd;
+var directionCw = true;
+board = new five.Board();
+board.on("ready", function() {
+	lcd = new five.LCD({
+		pins: [7,6,5,4,3,2],
+		backlight: 6,
+		rows: 2,
+		cols: 20
+	});
+
+	button = new five.Button({
+		pin: 9,
+		isPullup: true
+		//* with out resistance on board
+	});
+
+	var servo = new five.Servo({
+
+		pin: 12,
+		type: "continuous",  //* for CW
+	});
+
+	setInterval(function () {
+		if( directionCw ) {
+			servo.cw(2);
+			console.log("servo CW");
+		} else {
+			servo.ccw(2);
+			console.log("servo CCW");
+		}
+		directionCw = !directionCw;
+	}, 5000);
+
+	//* 5000 for every 5 seconds in the video Demo
+
+	var count = 0;
+	button.on("press", function() {
+		count++;
+		console.log('btn pressed ' + count.toString());
+
+		var pin = 8;
+		board.firmata = board.io;
+		board.firmata.sendOneWireConfig(pin, true);
+		board.firmata.sendOneWireSearch(pin, function(error, devices) {
+			if(error) {
+				console.error(error);
+				return;
+			}
+
+			//* only interested in the first device
+			var device = devices[0];
+
+			var readTemperature = function() {
+				// led.on();
+
+				// *start transmission
+				board.firmata.sendOneWireReset(pin);
+
+				// *a 1-wire select is done by ConfigurableFirmata
+				board.firmata.sendOneWireWrite(pin, device, 0x44);
+
+				// *the delay gives the sensor time to do the calculation
+				board.firmata.sendOneWireDelay(pin, 1000);
+
+				// *start transmission
+				board.firmata.sendOneWireReset(pin);
+
+				// *tell the sensor we want the result and read it from the scratchpad
+				board.firmata.sendOneWireWriteAndRead(pin, device, 0xBE, 9, function(error, data) {
+					if(error) {
+						//console.error(error);
+						return;
+					}
+					var raw = (data[1] << 8) | data[0];
+					var celsius = raw / 16.0;
+					var fahrenheit = celsius * 1.8 + 32.0;
+
+					console.info('celsius', celsius);
+					console.info('fahrenheit', fahrenheit);
+
+					// updateLed(celsius, led)
+					// led.off();
+
+					//* to show on LCD
+					lcd.cursor(1, 0).print( `Water :${fahrenheit} ` );
+
+					//console.log("LCD water temp");
+				});
+			};
+		});		
+	});
+
+	this.repl.inject({
+		lcd: lcd,
+		button: button,
+		servo: servo
+	});												
+});
+													</code>
+											</pre>
+                </div>
+                <div class='embed-container'>
+
+                    <iframe src='https://player.vimeo.com/video/271587341' frameborder='0' webkitAllowFullScreen
+                            mozallowfullscreen allowFullScreen></iframe>
+                    <script src="https://player.vimeo.com/api/player.js"></script>
+                </div>
+                <!-- Break -->
+                <ul>
+                    <br><br>
+                    <li>Codes on <a href="https://github.com/212mr/725nodejsHomework1" target="_blank"> GitHub <i
+                            class="icon fa-github-square fa-lg"></i></a></li>
+                    <li>Demo on <a href="https://vimeo.com/271587341"> Vimeo <i class="icon fa-vimeo-square fa-lg"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebarIndex" class="inactive">
+        <div class="inner">
+
+            <!-- Menu -->
+            <nav id="menu">
+                <header class="major">
+                    <h2>Menu</h2>
+                </header>
+                <ul>
+                    <li><a href="../index.html">Homepage</a></li>
+
+                    <li>
+                        <span class="opener">Companies' Work</span>
+                        <ul>
+                            <li><a href="adwork.html">UX @ Avery Dennison - 2020 till now</a></li>
+                            <li><a href="hpwork.html">Visual & UI @ HP -  2021</a></li>
+                            <li><a href="farm.html">Orchards Market - mobile app 2020</a></li>
+                            <li><a href="pinecone.html">Bluejay Inc. - eCommerce 2018</a></li>
+                            <li><a href="pinpinman.html">Finity Inc. - eCommerce 2017</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="opener">Midjourney Adventures 2023</span>
+                        <ul>
+                            <li><a href="Midjourney1map.html">UI of Maps </a></li>
+                            <li><a href="Midjourney2animal.html">UI of Animals </a></li>
+                            <li><a href="Midjourney3snow.html">UI of Snow Activities </a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="opener">UX / UI Projects</span>
+                        <ul>
+                            <li><a href="smartdelivery.html">SmartDelivery - mobile app 2017</a></li>
+                            <li><a href="timeorange.html">TimeOrange - mobile app 2016</a></li>
+                            <li><a href="chinalive.html">ChinaLive - website 2016</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="opener">Graphic Design</span>
+                        <ul>
+                            <li><a href="pi.html">Pi - logo design 2019</a></li>
+                            <li><a href="ebook.html">American Inventions - book design 2018</a></li>
+                            <!-- <li><a href="pages/womanGraphic.html">A Woman - graphic design</a></li> -->
+                            <li><a href="bird.html">A bird - graphic design 2017</a></li>
+
+                            <li><a href="solar.html">FA Music School - graphic design 2017</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span class="opener">Front-end Codings</span>
+                        <ul>
+                            <li><a href="fishFeeder.html">Fish Tank - internet of things 2018</a></li>
+                            <li><a href="infinity.html">Samsung Galaxy S8 - product webpage 2017</a></li>
+                            <li><a href="bones.html">Bones of Scent - shopping website 2016</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="aboutme.html">About Me</a></li>
+
+                </ul>
+            </nav>
+
+            <!-- Section -->
+            <section>
+                <header class="major">
+                    <h2>Get in touch</h2>
+                </header>
+                <!--                <p>-->
+                <!--                    I am a UX / UI designer interested and experienced in creating various kinds of visual communication. My major focus is on building web, mobile & tablet interfaces. I also have skills in branding, graphic design and typography.-->
+                <!--                    <br> <br>-->
+                <!--                    I am incredibly passionate about coding. I love trying new methods and approaches - it fosters my enthusiasm every day! I am overwhelmed with dedication for building projects that are long-term and valuable - I am inspired by the future of humanity and I want to be involved in its creation.-->
+                <!--                </p>-->
+                <ul class="contact">
+                    <li class="fa-envelope"><a href="mailto:zhangmengru0212@gmail.com">zhangmengru0212@gmail.com</a></li>
+                    <li class="fa-linkedin-square"><a href="https://www.linkedin.com/in/mengru-zhang-43264810a/" target="_blank">My LinkedIn</a></li>
+                    <li class="fa-file-text"><a href="https://drive.google.com/file/d/1ZQRlT5QWurd6qeHS8N1aqJb8lh8JMzOz/view?usp=sharing" target="_blank">Download Resume</a></li>
+                </ul>
+            </section>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <p class="copyright">
+                    Built with <i class="icon fa-heart"></i> & <i class="icon fa-coffee"></i>
+                    <br>
+                    © 2023 Mengru Zhang. All rights reserved.
+                </p>
+            </footer>
+        </div>
+    </div>
+
+</div>
+
+<!-- Scripts -->
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/skel.min.js"></script>
+<script src="../assets/js/util.js"></script>
+<!--[if lte IE 8]>
+<script src="../assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="../assets/js/main.js"></script>
+
+<script src="../assets/js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+</body>
+</html>

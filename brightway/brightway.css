@@ -1,0 +1,6 @@
+.language-section {
+    display: none; /* Hide all sections by default */
+}
+.active {
+    display: block; /* Show the active section */
+}

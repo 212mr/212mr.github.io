@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="松果物流，专业国际转运，共享物流社区">
+    <meta name="keywords" content="松果,松果网,pinecone,转运,淘宝转运,拼邮,海运,国内转运,">
+
+    <title>运费计算</title>
+    <link rel="icon" type="image/icon" href="../image/branding/SG_trans.png"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body>
+
+<header>
+    <!--横轴目录 大屏幕-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index3.html"><img class="logo" src="../image/branding/SG_trans.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index3.html">松果 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qanda.html">新手须知</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fastLine.html">极速拼运</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="savingLine.html">极省大包</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recommendations.html">每日推荐</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="priceCalculator.html">运费估算</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="my-2 my-md-0">
+                <button class="btn btn-outline-warning" type="button" data-toggle="modal" data-target="#exampleModalCenter" style="width:80px; height:40px;">客服</button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- 客服微信跳出 Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-muted" id="exampleModalCenterTitle">客服微信 <i class="fab fa-weixin"></i> WeChat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding: 3em;">
+                <img class="img-fluid" src="../image/QRcode_appStore/WechatCusomerService.png" alt="wechat service">
+            </div>
+            <div class="modal-footer text-muted">
+                <p><i class="fab fa-weixin"></i> 客服将尽快与您联系</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container margin3auto">
+    <!--运费细则-->
+    <div class=" pt-4 my-md-5 pt-md-5 padding1em">
+        <div class="row">
+            <div class="col-sm-8 padding2em">
+
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link active" id="nav-fast-tab" data-toggle="tab" href="#nav-fast" role="tab" aria-controls="nav-fast" aria-selected="true">  <h4> <i class="fas fa-plane-departure"></i> 极速空运 运费细则</h4></a>
+                        <a class="nav-item nav-link" id="nav-saving-tab" data-toggle="tab" href="#nav-saving" role="tab" aria-controls="nav-saving" aria-selected="false"> <h4> <i class="fas fa-dolly-flatbed"></i> 极省海运 运费细则</h4></a>
+
+                    </div>
+                </nav>
+                <div class="tab-content padding1em" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-fast" role="tabpanel" aria-labelledby="nav-fast-tab">
+                        <p> </p>
+                        <p>
+                            系统自动计算结果基于如下参数：
+                            <br>
+                            <br>
+                            <b>* 空运：3-7天 到达</b>
+                            <br><br>
+                            <b>* 运费单价： $1.2 / 100g  </b> <span class="text-muted">  （即 每100克1.2美元）</span>。
+                            <br><br>
+                            * 不足100g的向上取整收费，如：120g 收费重量为200g。
+                            <br><br>
+                            * 实际重量和抛货重量取比较重的那个：
+                            <br>抛货重量（公斤）计算公式：<b>长(cm) x 宽(cm) x 高(cm) / 5000</b>。
+
+                            <br>
+                            <br>
+                            * 如果单个包裹收费重量大于2kg, 价格自动变为<b>9折</b> 。
+                            <br><br>
+                            <img src="../image/others/packageVolume1.jpg" class="img-fluid" alt="volume">
+                            <br><br>
+                            <span class="text-muted">
+                                例如：长33厘米 x 宽33厘米 x 高33厘米 / 5000 = 7.1874 公斤。
+                            <br>运费：7187克 取算7200克；7200克 x 1.2美元 / 100克 x 90% (打九折) = 77.76 美元。
+                            </span>
+                        </p>
+                        <br>
+
+                        <p>
+                            * 包裹中如有片状面膜，每单收取3刀额外费用，重量不限。
+                            <br><br>
+                            * 带有内置电池的产品，每单收取3刀额外费用，重量不限。
+                            <br><br>
+                            * 包裹单边长超过1.2米，收取<b>超长费$180</b>。
+                            <br>
+                        </p>
+                        <div class="row float-right margin1top">
+                            <button class="btn btn-warning my-2 my-sm-0" type="submit">添加空运包裹</button>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="nav-saving" role="tabpanel" aria-labelledby="nav-saving-tab">
+                        <p> </p>
+                        <p>
+                            系统自动计算结果基于如下参数：
+                            <br><br>
+                            * 本计算公式只用于 <span class="color-blue" data-toggle="tooltip" data-placement="top" title="书本，寝具，布艺，铁质厨房用具，防寒外套，婚纱裙装，塑料家具，睡袋"> <i class="fas fa-exclamation-circle"></i> 八大开放品名。</span>
+                            <br>
+                            <br>
+                            <b>* 海运：3 - 4周 达到。</b>
+                            <br>
+                            <br>
+                            <b>* 单价：$5/kg，  </b> <span class="text-muted"> 单个包裹重量低于3kg的，按照3kg收费</span>。
+                            <br><br>
+                            * 不足1kg的，向上取整收费，如：4.3kg收费重量为5kg。
+                            <br><br>
+                            * 实际重量和抛货重量取比较重的那个：
+                            <br>抛货重量（公斤）计算公式：<b>长(cm) x 宽(cm) x 高(cm) / 6000</b>。
+                            <br><br>
+                            <img src="../image/others/packageVolume1.jpg" class="img-fluid" alt="volume">
+                            <br><br>
+                            <span class="text-muted">
+                                例如：长33厘米 x 宽33厘米 x 高33厘米 / 6000 = 5.9895 公斤。
+                            <br>运费：5.9895 公斤，取整数6公斤； 6公斤 x $5/kg = $30 美元。
+                            </span>
+                        </p>
+                        <br>
+                        <p>
+                            <br>
+                            <br>
+                            <b>* 超长超重费 </b> （如有疑问请先咨询客服）：
+                            <br><br>
+                            1）包裹单边长超过110cm 加收$20/箱；<b>长 + 2 x（宽 + 高）大于300 加收$100/箱</b>。
+                            <br> <br>
+                            2）不可分拆的单个物品实重超过30KG但小于50kg需加收$20/箱；大于50kg且不超过68KG需加收$100/箱。
+                            <br> <br>
+                            3）没有用任何东西包装或者用保鲜膜，布料，金属性的（如不锈钢）作为外包装或外包装是圆柱形需加收$20/箱。不接受木箱包装。
+                            <br>
+                        </p>
+                        <div class="row float-right margin1top">
+                            <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--计算器-->
+            <div class="col-sm-4 calculator padding2em" id="theCalculator">
+                <h4> <i class="fas fa-calculator"></i> 运费计算器</h4>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="packageLength">长 <span class="text-muted">cm厘米</span></label>
+                        <input type="number" class="form-control" id="packageLength" value="0" min="1" required placeholder="包裹长度">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="packageWidth">宽 <span class="text-muted">cm厘米</span></label>
+                        <input type="number" class="form-control" id="packageWidth"  value="0" min="1" required  placeholder="包裹宽度">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="packageHeight">高 <span class="text-muted">cm厘米</span></label>
+                        <input type="number" class="form-control" id="packageHeight" value="0" min="1" required  placeholder="包裹高度">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="packageWeight">重量 <span class="text-muted">g克</span></label>
+                        <input type="number" class="form-control" id="packageWeight" value="0" min="1" required  placeholder="包裹重量">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary float-right">运费估算</button>
+                    <br><br>
+
+                    <div class="form-group">
+                        <label for="volume">体积  <span class="text-muted">cm³立方厘米</span></label>
+                        <input type="number" class="form-control" id="volume" value="0" min="0" required placeholder="抛货重量">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fastFinalTotal"> <i class="fas fa-plane-departure"></i> 极速空运 <span class="text-muted">(美元$1.2/100克)</span></label>
+                        <input type="text" class="form-control" id="fastFinalTotal" value="0.0" placeholder="估算结果">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fastFinalTotal"><i class="fas fa-dolly-flatbed"></i> 极省海运 <span class="text-muted">(美元$5 / 公斤kg)</span></label>
+                        <input type="text" class="form-control" id="savingFinalTotal" value="0.0" placeholder="估算结果">
+                    </div>
+
+                </form>
+                <p class="float-right text-right">
+                    <br>
+                    <a href="#"><i class="fas fa-question-circle"></i>《新手指南》/ 《禁运列表与细则》</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="../image/branding/SG_yellow.png" alt="" width="50" height="50">
+                <small class="d-block mb-3 ">&copy; Bluejay, Inc. 2017-2019</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cool stuff</a></li>
+                    <li><a class="text-muted" href="#">Random feature</a></li>
+                    <li><a class="text-muted" href="#">Team feature</a></li>
+                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="#">Another one</a></li>
+                    <li><a class="text-muted" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Resource</a></li>
+                    <li><a class="text-muted" href="#">Resource name</a></li>
+                    <li><a class="text-muted" href="#">Another resource</a></li>
+                    <li><a class="text-muted" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+
+
+<!--jquery-->
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+<!--google map & Key-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGNGRJmTRf_IiTBXRvRsuupuZxWyjx9Uk&callback=initMap"
+        async defer></script>
+
+<!--jquery-->
+<script src="../js/fastLineSavingLine.js"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+<!--<script>-->
+<!--$(function(){-->
+<!--var hash = window.location.hash;-->
+<!--hash && $('ul.nav a[href="' + hash + '"]').tab('show');-->
+
+<!--$('.nav-tabs a').click(function (e) {-->
+<!--$(this).tab('show');-->
+<!--var scrollmem = $('body').scrollTop();-->
+<!--window.location.hash = this.hash;-->
+<!--$('html,body').scrollTop(scrollmem);-->
+<!--});-->
+<!--});-->
+<!--</script>-->
+
+
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-BoldItalic.eot');
+    src: url('FuturaBT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldItalic.woff2') format('woff2'),
+        url('FuturaBT-BoldItalic.woff') format('woff'),
+        url('FuturaBT-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('FuturaBT-Light.eot');
+    src: url('FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Light.woff2') format('woff2'),
+        url('FuturaBT-Light.woff') format('woff'),
+        url('FuturaBT-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-BookItalic.eot');
+    src: url('FuturaBT-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BookItalic.woff2') format('woff2'),
+        url('FuturaBT-BookItalic.woff') format('woff'),
+        url('FuturaBT-BookItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-Book.eot');
+    src: url('FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Book.woff2') format('woff2'),
+        url('FuturaBT-Book.woff') format('woff'),
+        url('FuturaBT-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('FuturaBT-LightItalic.eot');
+    src: url('FuturaBT-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-LightItalic.woff2') format('woff2'),
+        url('FuturaBT-LightItalic.woff') format('woff'),
+        url('FuturaBT-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('FuturaBT-BoldCondensed.eot');
+    src: url('FuturaBT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldCondensed.woff2') format('woff2'),
+        url('FuturaBT-BoldCondensed.woff') format('woff'),
+        url('FuturaBT-BoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+

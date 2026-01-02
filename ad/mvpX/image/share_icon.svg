@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-share_icon">
+      <rect width="40" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="share_icon" clip-path="url(#clip-share_icon)">
+    <rect width="40" height="40" fill="#fff"/>
+    <g id="share_icon-2" data-name="share icon" transform="translate(-317 -344)">
+      <circle id="Ellipse_33" data-name="Ellipse 33" cx="20" cy="20" r="20" transform="translate(317 344)" fill="#fff"/>
+      <path id="ic_share_24px" d="M18,16.08a2.912,2.912,0,0,0-1.96.77L8.91,12.7A3.274,3.274,0,0,0,9,12a3.274,3.274,0,0,0-.09-.7l7.05-4.11A2.993,2.993,0,1,0,15,5a3.274,3.274,0,0,0,.09.7L8.04,9.81a3,3,0,1,0,0,4.38l7.12,4.16a2.821,2.821,0,0,0-.08.65A2.92,2.92,0,1,0,18,16.08Z" transform="translate(323.428 351.239)" fill="#7b7b7b"/>
+    </g>
+  </g>
+</svg>

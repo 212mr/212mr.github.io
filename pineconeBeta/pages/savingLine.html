@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="松果物流，专业国际转运，共享物流社区">
+    <meta name="keywords" content="松果,松果网,pinecone,转运,淘宝转运,拼邮,海运,国内转运,">
+
+    <title>极省 - Pinecone Go</title>
+    <link rel="icon" type="image/icon" href="../image/branding/SG_trans.png"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!--<header>-->
+<!--    &lt;!&ndash;横轴目录 大屏幕&ndash;&gt;-->
+<!--    <nav class="navbar navbar-expand-md navbar-dark bg-dark">-->
+<!--        <a class="navbar-brand" href="../index3.html"><img class="logo" src="../image/branding/SG_trans.png" alt="logo"></a>-->
+<!--        <buttonPatagoniaBefore class="navbar-toggler" type="buttonPatagoniaBefore" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </buttonPatagoniaBefore>-->
+
+<!--        <div class="collapse navbar-collapse" id="navbarsExample04">-->
+<!--            <ul class="navbar-nav mr-auto">-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" href="../index3.html">松果 <span class="sr-only">(current)</span></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="qanda.html">新手须知</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="fastLine.html">极速拼运</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="savingLine.html">极省大包</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="recommendations.html">每日推荐</a>-->
+<!--                </li>-->
+
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="priceCalculator.html">运费估算</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item dropdown">-->
+<!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+<!--                    <div class="dropdown-menu" aria-labelledby="dropdown04">-->
+<!--                        <a class="dropdown-item" href="#">Action</a>-->
+<!--                        <a class="dropdown-item" href="#">Another action</a>-->
+<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            <div class="my-2 my-md-0">-->
+<!--                <buttonPatagoniaBefore class="btn btn-outline-warning" type="buttonPatagoniaBefore" data-toggle="modal" data-target="#exampleModalCenter" style="width:80px; height:40px;">客服</buttonPatagoniaBefore>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </nav>-->
+<!--</header>-->
+
+<header>
+    <!--横轴目录 大屏幕-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index3.html"><img class="logo" src="../image/branding/SG_trans.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index3.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qanda.html">INTRODUCTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fastLine.html">AIR TRANSPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="savingLine.html">SEA TRANSPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recommendations.html">RECOMMENDATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="priceCalculator.html">PRICE</a>
+                </li>
+                <!--<li class="nav-item">-->
+                <!--<a class="nav-link" href="#">禁运清单</a>-->
+                <!--</li>-->
+                <!--                <li class="nav-item dropdown">-->
+                <!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+                <!--                    <div class="dropdown-menu" aria-labelledby="dropdown04">-->
+                <!--                        <a class="dropdown-item" href="#">Action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Another action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                <!--                    </div>-->
+                <!--                </li>-->
+
+            </ul>
+            <div class="my-2 my-md-0">
+                <button class="btn btn-outline-warning" type="button" data-toggle="modal"
+                        data-target="#exampleModalCenter" style="width:80px; height:40px;">Help
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<!-- 客服微信跳出 Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-muted" id="exampleModalCenterTitle">客服微信 <i class="fab fa-weixin"></i>
+                    WeChat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding: 3em;">
+                <img class="img-fluid" src="../image/QRcode_appStore/WechatCusomerService.png" alt="wechat service">
+            </div>
+            <div class="modal-footer text-muted">
+                <p><i class="fab fa-weixin"></i> 客服将尽快与您联系</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container margin3auto">
+    <!--介绍内容-->
+    <div class="row">
+        <div class="col-sm-6 padding1em">
+            <img src="../image/icons/process-get-01-01-01-01.svg"
+                 class="img-fluid" alt="fast storage">
+        </div>
+        <div class="col-sm-6 padding2em">
+            <h1>SEA TRANSPORT</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.
+            </p>
+            <ul class="h5 intro-list">
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>PRICE $5 / kg <span class="text-muted"> Lorem ipsum dolor sit amet</span> Lorem ipsum dolor sit amet
+                </li>
+                <li>Lorem ipsum dolor sit amet<span class="text-muted"> consectetur adipiscing elit, sed do eiusmod tempor incididunt</span>
+                </li>
+                <li>consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
+                <li>consectetur adipiscing elit, sed do eiusmod tempor incididunt <a href="#"> <i
+                        class="fas fa-store"></i> Shipment</a></li>
+                <!--<li>包清关</li>-->
+                <!--<li>微信客服方便联系</li>-->
+            </ul>
+        </div>
+    </div>
+
+    <div class="margin1auto tab-info">
+        <!--<div class="row">-->
+
+        <!--<h1>Bootstrap Tabs</h1>-->
+        <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <a class="nav-item nav-link active" id="nav-print-tab" data-toggle="tab" href="#nav-print" role="tab"
+                   aria-controls="nav-print" aria-selected="true">BOOKS</a>
+                <a class="nav-item nav-link" id="nav-dom-tab" data-toggle="tab" href="#nav-dom" role="tab"
+                   aria-controls="nav-dom" aria-selected="false">Lorem ipsum</a>
+                <a class="nav-item nav-link" id="nav-fabric-tab" data-toggle="tab" href="#nav-fabric" role="tab"
+                   aria-controls="nav-fabric" aria-selected="false">Lorem ipsum</a>
+                <a class="nav-item nav-link" id="nav-toy-tab" data-toggle="tab" href="#nav-toy" role="tab"
+                   aria-controls="nav-toy" aria-selected="true">Lorem ipsum</a>
+                <a class="nav-item nav-link" id="nav-coat-tab" data-toggle="tab" href="#nav-coat" role="tab"
+                   aria-controls="nav-coat" aria-selected="false">Lorem ipsum</a>
+                <a class="nav-item nav-link" id="nav-dress-tab" data-toggle="tab" href="#nav-dress" role="tab"
+                   aria-controls="nav-dress" aria-selected="false">Lorem ipsum</a>
+                <a class="nav-item nav-link" id="nav-plastic-tab" data-toggle="tab" href="#nav-plastic" role="tab"
+                   aria-controls="nav-plastic" aria-selected="false">Lorem ipsum</a>
+                <a class="nav-item nav-link" id="nav-sleep-tab" data-toggle="tab" href="#nav-sleep" role="tab"
+                   aria-controls="nav-sleep" aria-selected="false">Lorem ipsum</a>
+            </div>
+        </nav>
+        <div class="tab-content padding1em" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-print" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p></p>
+                <!--                    <p>-->
+                <!--                    松果极省图书线以印刷出版物为主，方便大家学习中文和阅读中文类优秀著作。 <b>注意：因为版权问题，大部分境外英文原版类图书都不能运</b> ，如有特别情况，如原版作者为中国人的，请携带ISBN码询问客服。-->
+                <!--                    <br><br>-->
+                <!--                    具体可运：-->
+                <!--                        <br>-->
+                <!--                    1）大部分的<b>中文原版书籍</b>： 中国作者著儿童绘本、中小学语数教辅书、练习本、书法字帖、国学，新华字典、汉字卡，学前教育（四五快读），中国作家著文学作品-->
+                <!--                    <br><br>-->
+                <!--                    2）有声读物类：-->
+                <!--                    爱看屋/洪恩品牌点读笔+配套书本套餐，有声挂图 <b>（贝灵点读笔/读书郎迪士尼点读笔书本涉境外卡通形象不可运，hello kitty品牌涉海外卡通形象不可运，其他品牌运前请咨询松果客服确认。）</b>-->
+                <!--                    <br><br>-->
+                <!--                    3）企业宣传册类：-->
+                <!--                    企业宣传和内部分发的印刷册-->
+                <!--                    <br><br>-->
+                <!--                    <b>4）禁运列表：</b>-->
+                <!--                    宗教反动类，盗版书籍类，含非大陆原创卡通形象的绘本书籍(如米菲兔系列，迪士尼系列)，外国作家著中译版书籍包括儿童绘本、计算机类书籍、工具书、文学作品（哈利波特，Python中译本 ），GRE/TOFEL等英语考试辅导书。-->
+                <!--                    </p>-->
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+
+
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">Add Packages</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-dom" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p></p>
+                <p>
+                    床上四件套
+                    <br><br>
+                    被子枕头坐垫
+                    <br><br>
+                    梦里寻他千百度，蓦然回首还是国内被子最舒服。
+                    <br><br>
+                    具体可运：
+                    成品被子（只运棉胎不行），手工被，子母被，儿童防踢被， 海绵垫子，塑料充气坐垫，床罩，全棉床上四件套，抱枕套，枕芯，抱枕，其它坐垫
+                    <br><br>
+                    <b>禁运列表：</b>
+                    含有侵权图案：如一线品牌LOGO/海外知名卡通形象/世界名画图案/名人肖像
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-fabric" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <p></p>
+                <p>
+                    窗帘浴帘
+                    <br><br>
+                    餐桌沙发织物
+                    <br><br>
+                    内页文案：
+                    生活的小点睛往往来自于客厅一角那抹与众不同的花色。松果极省线，让你再也不用因为运费顾虑而放弃个性定制窗帘类软的机会啦。
+                    <br><br>
+                    具体可运：
+                    布艺窗帘，门帘，浴帘，帐幔，餐桌垫，桌布，桌旗，布艺沙发套，椅套等
+                    <br><br>
+                    禁运列表：
+                    含侵权图案（如一线品牌LOGO/海外知名卡通形象/世界名画图案）布艺制品
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-toy" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p></p>
+                <p>TOY
+                    松果极省图书线向所有热爱阅读的大书虫和小书虫开放。方便大家学习中文和阅读中文类优秀著作。 <b>注意：因为版权问题，大部分英文原版类图书都不能运</b>
+                    ，如有特别情况，如原版作者为中国人的，请携带ISBN码询问客服。
+                    <br><br>
+                    具体可运：
+                    大部分的中文原版书籍：
+                    中国作者著儿童绘本、中小学语数教辅书（如语文课本，一课一练）、练习本、书法字帖、国学（唐诗300首），新华字典、早教卡（黑白视觉卡），识字卡，学前教育（四五快读），中国作家著文学作品
+                    <br><br>
+                    有声读物类：
+                    爱看屋/洪恩品牌点读笔+配套书本套餐（贝灵点读笔/读书郎迪士尼点读笔书本涉境外卡通形象不可运，其他品牌运前请咨询松果客服确认），有声挂图（hello kitty品牌涉海外卡通形象不可运）
+                    <br><br>
+                    企业宣传册类：
+                    企业宣传和内部分发的印刷册
+                    <br><br>
+                    <b>禁运列表：</b>
+                    宗教反动类，盗版书籍类，含非大陆原创卡通形象的绘本书籍(如米菲兔系列，迪士尼系列)，外国作家著中译版书籍包括儿童绘本、计算机类书籍、工具书、文学作品（如哈利波特，神奇校车，Python编程中译本
+                    ），GRE/TOFEL等考试辅导书（如红宝书）
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-coat" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p></p>
+                <p>COAT
+                    床上四件套
+                    <br><br>
+                    被子枕头坐垫
+                    <br><br>
+                    梦里寻他千百度，蓦然回首还是国内被子最舒服。
+                    <br><br>
+                    具体可运：
+                    成品被子（只运棉胎不行），手工被，子母被，儿童防踢被， 海绵垫子，塑料充气坐垫，床罩，全棉床上四件套，抱枕套，枕芯，抱枕，其它坐垫
+                    <br><br>
+                    <b>禁运列表：</b>
+                    含有侵权图案：如一线品牌LOGO/海外知名卡通形象/世界名画图案/名人肖像
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-dress" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <p></p>
+                <p>DRESS
+                    窗帘浴帘
+                    <br><br>
+                    餐桌沙发织物
+                    <br><br>
+                    内页文案：
+                    生活的小点睛往往来自于客厅一角那抹与众不同的花色。松果极省线，让你再也不用因为运费顾虑而放弃个性定制窗帘类软的机会啦。
+                    <br><br>
+                    具体可运：
+                    布艺窗帘，门帘，浴帘，帐幔，餐桌垫，桌布，桌旗，布艺沙发套，椅套等
+                    <br><br>
+                    禁运列表：
+                    含侵权图案（如一线品牌LOGO/海外知名卡通形象/世界名画图案）布艺制品
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nav-plastic" role="tabpanel" aria-labelledby="nav-home-tab">
+                <p></p>
+                <p>
+                    Plastic 松果极省图书线向所有热爱阅读的大书虫和小书虫开放。方便大家学习中文和阅读中文类优秀著作。 <b>注意：因为版权问题，大部分英文原版类图书都不能运</b>
+                    ，如有特别情况，如原版作者为中国人的，请携带ISBN码询问客服。
+                    <br><br>
+                    具体可运：
+                    大部分的中文原版书籍：
+                    中国作者著儿童绘本、中小学语数教辅书（如语文课本，一课一练）、练习本、书法字帖、国学（唐诗300首），新华字典、早教卡（黑白视觉卡），识字卡，学前教育（四五快读），中国作家著文学作品
+                    <br><br>
+                    有声读物类：
+                    爱看屋/洪恩品牌点读笔+配套书本套餐（贝灵点读笔/读书郎迪士尼点读笔书本涉境外卡通形象不可运，其他品牌运前请咨询松果客服确认），有声挂图（hello kitty品牌涉海外卡通形象不可运）
+                    <br><br>
+                    企业宣传册类：
+                    企业宣传和内部分发的印刷册
+                    <br><br>
+                    <b>禁运列表：</b>
+                    宗教反动类，盗版书籍类，含非大陆原创卡通形象的绘本书籍(如米菲兔系列，迪士尼系列)，外国作家著中译版书籍包括儿童绘本、计算机类书籍、工具书、文学作品（如哈利波特，神奇校车，Python编程中译本
+                    ），GRE/TOFEL等考试辅导书（如红宝书）
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+
+            </div>
+            <div class="tab-pane fade" id="nav-sleep" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <p></p>
+                <p>SLEEP
+                    床上四件套
+                    <br><br>
+                    被子枕头坐垫
+                    <br><br>
+                    梦里寻他千百度，蓦然回首还是国内被子最舒服。
+                    <br><br>
+                    具体可运：
+                    成品被子（只运棉胎不行），手工被，子母被，儿童防踢被， 海绵垫子，塑料充气坐垫，床罩，全棉床上四件套，抱枕套，枕芯，抱枕，其它坐垫
+                    <br><br>
+                    <b>禁运列表：</b>
+                    含有侵权图案：如一线品牌LOGO/海外知名卡通形象/世界名画图案/名人肖像
+                </p>
+                <div class="row float-right margin1top">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">添加海运包裹</button>
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+    </div>
+
+    <!--小站卡片介绍-->
+    <!--**-->
+
+    <!--**-->
+    <div class="margin1top padding1top">
+        <nav class="navbar navbar-light bg-light">
+            <div class="navbar-brand">
+                <i class="fas fa-map-marker-alt"></i>&nbsp; Your location: San Jose, CA
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Address" aria-label="search">
+                <button class="btn btn-warning my-2 my-sm-0" type="submit">Search Address</button>
+            </form>
+        </nav>
+
+        <!--google map-->
+        <div class="row margin1auto">
+            <div id="map"></div>
+        </div>
+
+        <div class="row margin1auto">
+            <div class="card-deck padding1top">
+                <div class="card border-warning">
+                    <img src="../image/carousel/smallEnglish.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">San Jose</h5>
+                        <p class="card-text">Lorem ipsum dolor </p>
+                        <p class="text-muted"><i class="fas fa-map-marker-alt"></i> 1927 Hartog Dr, San Jose, CA 95131
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+                            </div>
+                        </div>
+                        <br>
+                        <a href="qanda.html" class=" btn btn-warning color-white float-right">Add Package</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <i class="fas fa-home"></i> Phone:（408）5731880
+                            <br>
+                            <i class="fas fa-clock"></i> Opening Time: Mon-Fri 8am-5pm
+                        </small>
+
+                    </div>
+                </div>
+
+
+                <div class="card border-warning">
+                    <img src="../image/carousel/smallEnglish.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">San Jose</h5>
+                        <p class="card-text">Lorem ipsum dolor </p>
+                        <p class="text-muted"><i class="fas fa-map-marker-alt"></i> 1927 Hartog Dr, San Jose, CA 95131
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+                            </div>
+                        </div>
+                        <br>
+                        <a href="qanda.html" class=" btn btn-warning color-white float-right">Add Package</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <i class="fas fa-home"></i> Phone:（408）5731880
+                            <br>
+                            <i class="fas fa-clock"></i> Opening Time: Mon-Fri 8am-5pm
+                        </small>
+                    </div>
+                </div>
+
+                <div class="card border-warning">
+                    <img src="../image/carousel/smallEnglish.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">San Jose</h5>
+                        <p class="card-text">Lorem ipsum dolor </p>
+                        <p class="text-muted"><i class="fas fa-map-marker-alt"></i> 1927 Hartog Dr, San Jose, CA 95131
+                        </p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar"
+                                 style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%
+                            </div>
+                        </div>
+                        <br>
+                        <a href="qanda.html" class=" btn btn-warning color-white float-right">Add Package</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <i class="fas fa-home"></i> Phone:（408）5731880
+                            <br>
+                            <i class="fas fa-clock"></i> Opening Time: Mon-Fri 8am-5pm
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--运费细则-->
+    <div class="border-top pt-4 my-md-5 pt-md-5 padding1em">
+        <div class="row">
+            <div class="col-sm-8 padding2em">
+                <h4><i class="fas fa-dolly-flatbed"></i> SEA TRANSPORT</h4>
+                <br>
+
+                <!--                <p>-->
+                <!--                    系统自动计算结果基于如下参数：-->
+                <!--                    <br><br>-->
+                <!--                    * 本计算公式只针对以上八大开放品名-->
+                <!--                    <br>-->
+                <!--                    <br>-->
+
+                <!--                    <b>* 单价：$5/kg，  </b> <span class="text-muted"> 单个包裹重量低于3kg的，按照3kg收费</span>。-->
+                <!--                    <br><br>-->
+                <!--                    * 不足1kg的，向上取整收费，如：4.3kg收费重量为5kg。-->
+
+                <!--                    <br><br>-->
+                <!--                    * 实际重量和抛货重量取比较重的那个：-->
+                <!--                    <br>抛货重量（公斤）计算公式：<b>长(cm) x 宽(cm) x 高(cm) / 6000</b>。-->
+                <!--                    <br><br>-->
+                <!--                    <img src="../image/others/packageVolume1.jpg" class="img-fluid" alt="volume">-->
+                <!--                    <br><br>-->
+                <!--                    <span class="text-muted">-->
+                <!--                    例如：长33厘米 x 宽33厘米 x 高33厘米 / 6000 = 5.9895 公斤。-->
+                <!--                <br>运费：5.9895 公斤，取整数6公斤； 6公斤 x $5/kg = $30 美元。-->
+                <!--                </span>-->
+                <!--                </p>-->
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et netus.
+                    Donec enim diam vulputate ut pharetra sit amet aliquam id. Ipsum suspendisse ultrices gravida dictum
+                    fusce ut placerat orci. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Sit amet
+                    commodo nulla facilisi nullam. Pellentesque massa placerat duis ultricies lacus sed turpis
+                    tincidunt. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Leo integer malesuada nunc
+                    vel risus commodo viverra. Faucibus et molestie ac feugiat sed lectus. Ut ornare lectus sit amet
+                    est. Turpis in eu mi bibendum neque egestas. Auctor elit sed vulputate mi sit. Tempus urna et
+                    pharetra pharetra massa massa. Ipsum suspendisse ultrices gravida dictum fusce ut.
+                </p>
+
+                <br>
+
+                <!--                <p>-->
+                <!--                    <br>-->
+                <!--                    <br>-->
+                <!--                    <b>* 超长超重费 </b> （如有疑问请先咨询客服）：-->
+                <!--                    <br><br>-->
+                <!--                    1）包裹单边长超过110cm 加收$20/箱；<b>长 + 2 x（宽 + 高）大于300 加收$100/箱</b>。-->
+                <!--                    <br> <br>-->
+                <!--                    2）不可分拆的单个物品实重超过30KG但小于50kg需加收$20/箱；大于50kg且不超过68KG需加收$100/箱。-->
+                <!--                    <br> <br>-->
+                <!--                    3）没有用任何东西包装或者用保鲜膜，布料，金属性的（如不锈钢）作为外包装或外包装是圆柱形需加收$20/箱。不接受木箱包装。-->
+                <!--                    <br>-->
+                <!--                </p>-->
+
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et netus.
+
+                    <br><br>
+
+                    Donec enim diam vulputate ut pharetra sit amet aliquam id. Ipsum suspendisse ultrices gravida dictum
+                    fusce ut placerat orci. Pharetra diam sit amet nisl suscipit adipiscing bibendum est. Sit amet
+                    commodo nulla facilisi nullam. Pellentesque massa placerat duis ultricies lacus sed turpis
+                    tincidunt. Sed vulputate mi sit amet mauris commodo quis imperdiet massa. Leo integer malesuada nunc
+                    vel risus commodo viverra. Faucibus et molestie ac feugiat sed lectus.
+
+                    <br><br>
+                    Ut ornare lectus sit amet
+                    est. Turpis in eu mi bibendum neque egestas. Auctor elit sed vulputate mi sit. Tempus urna et
+                    pharetra pharetra massa massa. Ipsum suspendisse ultrices gravida dictum fusce ut.
+                </p>
+
+            </div>
+            <!--计算器-->
+            <div class="col-sm-4 calculator padding2em" id="theCalculator">
+                <h4><i class="fas fa-calculator"></i> Price Calculator</h4>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <label for="packageLength">Length <span class="text-muted"> - cm</span></label>
+                        <input type="number" class="form-control" id="packageLength" value="0" min="1" required
+                               placeholder="包裹长度">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="packageWidth">Width <span class="text-muted"> - cm</span></label>
+                        <input type="number" class="form-control" id="packageWidth" value="0" min="1" required
+                               placeholder="包裹宽度">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="packageHeight">Height <span class="text-muted"> - cm</span></label>
+                        <input type="number" class="form-control" id="packageHeight" value="0" min="1" required
+                               placeholder="包裹高度">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="packageWeight">Weight <span class="text-muted">- g</span></label>
+                        <input type="number" class="form-control" id="packageWeight" value="0" min="1" required
+                               placeholder="包裹重量">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary float-right">Calculate</button>
+                    <br><br>
+
+                    <div class="form-group">
+                        <label for="volume">Size <span class="text-muted"> - cm³</span></label>
+                        <input type="number" class="form-control" id="volume" value="0" min="0" required
+                               placeholder="抛货重量">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fastFinalTotal"> <i class="fas fa-plane-departure"></i> AIR TRANSPORT <span
+                                class="text-muted">( $1.2 / 100g )</span></label>
+                        <input type="text" class="form-control" id="fastFinalTotal" value="0.0" placeholder="估算结果">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="fastFinalTotal"><i class="fas fa-dolly-flatbed"></i> SEA TRANSPORT <span class="text-muted">( $5 / kg )</span></label>
+                        <input type="text" class="form-control" id="savingFinalTotal" value="0.0" placeholder="估算结果">
+                    </div>
+
+                </form>
+                <p class="float-right text-right">
+                    <br>
+                    <a href="qanda.html"><i class="fas fa-question-circle"></i> The Policies</a>
+                    <!--<br>-->
+                    <!--<a href="#"><i class="fas fa-exclamation-circle"></i></a>-->
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="../image/branding/SG_yellow.png" alt="" width="50" height="50">
+                <small class="d-block mb-3 ">&copy; Bluejay, Inc. 2017-2019</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cool stuff</a></li>
+                    <li><a class="text-muted" href="#">Random feature</a></li>
+                    <li><a class="text-muted" href="#">Team feature</a></li>
+                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="#">Another one</a></li>
+                    <li><a class="text-muted" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Resource</a></li>
+                    <li><a class="text-muted" href="#">Resource name</a></li>
+                    <li><a class="text-muted" href="#">Another resource</a></li>
+                    <li><a class="text-muted" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!--jquery-->
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+<!--google map & Key-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGNGRJmTRf_IiTBXRvRsuupuZxWyjx9Uk&callback=initMap"
+        async defer></script>
+
+<!--jquery-->
+<script src="../js/fastLineSavingLine.js"></script>
+
+<!--<script>-->
+<!--$(function(){-->
+<!--var hash = window.location.hash;-->
+<!--hash && $('ul.nav a[href="' + hash + '"]').tab('show');-->
+
+<!--$('.nav-tabs a').click(function (e) {-->
+<!--$(this).tab('show');-->
+<!--var scrollmem = $('body').scrollTop();-->
+<!--window.location.hash = this.hash;-->
+<!--$('html,body').scrollTop(scrollmem);-->
+<!--});-->
+<!--});-->
+<!--</script>-->
+
+
+</body>
+</html>

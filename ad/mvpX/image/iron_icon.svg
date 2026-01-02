@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <clipPath id="clip-iron_icon">
+      <rect width="56" height="56"/>
+    </clipPath>
+  </defs>
+  <g id="iron_icon" clip-path="url(#clip-iron_icon)">
+    <g id="icon" transform="translate(-31.2 -576.557)">
+      <g id="Group_29" data-name="Group 29" transform="translate(46.765 610.827)">
+        <ellipse id="Ellipse_46" data-name="Ellipse 46" cx="4.874" cy="4.874" rx="4.874" ry="4.874"/>
+        <ellipse id="Ellipse_47" data-name="Ellipse 47" cx="4.874" cy="4.874" rx="4.874" ry="4.874" transform="translate(13.887)"/>
+      </g>
+      <path id="Path_117" data-name="Path 117" d="M12.862,14a1.651,1.651,0,0,0,0,3.3H56.54V35.79a80.971,80.971,0,0,0-21.229-3.037C13.533,32.752,4.993,43.779,4.2,57.778a.237.237,0,0,1,.061.132v.528h0c0,.594-.061,1.123-.061,1.717,0,.462,0,1.255.061,1.783,0,0,0,.264.061.264H60.2V14ZM56.54,40.28V58.24H7.616c.732-11.885,7.808-21.79,27.695-21.79A81.329,81.329,0,0,1,56.54,39.487v.792Z" transform="translate(27 566.887)"/>
+    </g>
+  </g>
+</svg>

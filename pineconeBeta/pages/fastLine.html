@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="松果物流，专业国际转运，共享物流社区">
+    <meta name="keywords" content="松果,松果网,pinecone,转运,淘宝转运,拼邮,海运,国内转运,">
+
+    <title>极速 - Pinecone Go</title>
+    <link rel="icon" type="image/icon" href="../image/branding/SG_trans.png"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body>
+
+<header>
+    <!--横轴目录 大屏幕-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index3.html"><img class="logo" src="../image/branding/SG_trans.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index3.html">松果 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qanda.html">新手须知</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fastLine.html">极速拼运</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="savingLine.html">极省大包</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recommendations.html">每日推荐</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="priceCalculator.html">运费估算</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown04">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="my-2 my-md-0">
+                <button class="btn btn-outline-warning" type="button" data-toggle="modal" data-target="#exampleModalCenter" style="width:80px; height:40px;">客服</button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- 客服微信跳出 Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" >
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-muted" id="exampleModalCenterTitle">客服微信 <i class="fab fa-weixin"></i> WeChat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding: 3em;">
+                <img class="img-fluid" src="../image/QRcode_appStore/WechatCusomerService.png" alt="wechat service">
+            </div>
+            <div class="modal-footer text-muted">
+                <p><i class="fab fa-weixin"></i> 客服将尽快与您联系</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container margin3auto">
+<!--介绍内容-->
+    <div class="row">
+        <div class="col-sm-6 padding1em">
+            <img src="../image/icons/process-storage-01.svg"
+                class="img-fluid" alt="fast storage">
+        </div>
+        <div class="col-sm-6 padding2em">
+            <h1>松果极速</h1>
+            <p>松果app用户可以通过微信一键登陆来完成全部操作流程，简单方便萌萌哒。松果网的初衷是通过共享物流空间和本地商家合作的方式帮助用户完成中国至海外的逆向海淘, 实现速度、价格和易操作三方面的最优化。基本实现与境内网购无差异的购物体验，随买随运，多快好省。</p>
+            <ul class="h5 intro-list">
+                <li>无需凑单，小包裹100g起运</li>
+                <li>运费 $1.2 / 100g <span class="text-muted">  （即 每100克1.2美元）</span></li>
+                <li>仓库每周至少发货一次，随时买随时送</li>
+                <li>空运3-7天到达 <a href="#"> <i class="fas fa-store"></i> 松果取货小站</a></li>
+                <li>单个包裹2kg及以上享受运费9折</li>
+                <li>微信客服方便联系</li>
+            </ul>
+        </div>
+    </div>
+
+<!--小站卡片介绍-->
+    <div class="margin1auto">
+        <nav class="navbar navbar-light bg-light">
+            <div class="navbar-brand">
+                <i class="fas fa-map-marker-alt"></i>&nbsp; 您的当前位置: San Jose, CA
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="请输入地址" aria-label="search">
+                <button class="btn btn-warning my-2 my-sm-0" type="submit">查找附近小站</button>
+            </form>
+        </nav>
+
+
+<!--google map-->
+        <div class="row margin1auto">
+           <div id="map"></div>
+        </div>
+
+        <div class="row margin1auto">
+            <div class="card-deck padding1top">
+                <div class="card border-warning">
+                    <img src="../image/pickupLocation/9discount1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">San Jose</h5>
+                        <p class="card-text">Urban Interior Design 室内设计</p>
+                        <p class="text-muted"> <i class="fas fa-map-marker-alt"></i> 1927 Hartog Dr, San Jose, CA 95131</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <br>
+                        <a href="qanda.html" class=" btn btn-warning color-white float-right">加入极速拼邮</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <i class="fas fa-home"></i> 联系小站：电话（408）5731880
+                            <br>
+                            <i class="fas fa-clock"></i> 取货时间：周一到周五10am-5pm；周六10am-12am；周日休息。
+                        </small>
+
+                    </div>
+                </div>
+
+
+                <div class="card border-warning">
+                    <img src="../image/pickupLocation/9discount1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">San Jose</h5>
+                        <p class="card-text">Urban Interior Design 室内设计</p>
+                        <p class="text-muted"> <i class="fas fa-map-marker-alt"></i> 1927 Hartog Dr, San Jose, CA 95131</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <br>
+                        <a href="qanda.html" class=" btn btn-warning color-white float-right">加入极速拼邮</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <i class="fas fa-home"></i> 联系小站：电话（408）5731880
+                            <br>
+                            <i class="fas fa-clock"></i> 取货时间：周一到周五10am-5pm；周六10am-12am；周日休息。
+                        </small>
+                    </div>
+                </div>
+
+                <div class="card border-warning">
+                    <img src="../image/pickupLocation/9discount1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">San Jose</h5>
+                        <p class="card-text">Urban Interior Design 室内设计</p>
+                        <p class="text-muted"> <i class="fas fa-map-marker-alt"></i> 1927 Hartog Dr, San Jose, CA 95131</p>
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+                        </div>
+                        <br>
+                        <a href="qanda.html" class=" btn btn-warning color-white float-right">加入极速拼邮</a>
+                    </div>
+                    <div class="card-footer">
+                        <small class="text-muted">
+                            <i class="fas fa-home"></i> 联系小站：电话（408）5731880
+                            <br>
+                            <i class="fas fa-clock"></i> 取货时间：周一到周五10am-5pm；周六10am-12am；周日休息。
+                        </small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--运费细则-->
+    <div class="border-top pt-4 my-md-5 pt-md-5 padding1em">
+        <div class="row">
+        <div class="col-sm-8 padding2em">
+            <h4><i class="fas fa-plane-departure"></i> 极速空运</h4>
+            <br>
+
+            <p>
+                系统自动计算结果基于如下参数：
+                <br>
+                <br>
+                <b>* 运费单价： $1.2 / 100g  </b> <span class="text-muted">  （即 每100克1.2美元）</span>。
+                <br><br>
+                * 不足100g的向上取整收费，如：120g 收费重量为200g。
+                <br><br>
+                * 实际重量和抛货重量取比较重的那个：
+                <br>抛货重量（公斤）计算公式：<b>长(cm) x 宽(cm) x 高(cm) / 5000</b>。
+
+                <br>
+                <br>
+                * 如果单个包裹收费重量大于2kg, 价格自动变为<b>9折</b> 。
+                <br><br>
+                <img src="../image/others/packageVolume1.jpg" class="img-fluid" alt="volume">
+                <br><br>
+                <span class="text-muted">
+                    例如：长33厘米 x 宽33厘米 x 高33厘米 / 5000 = 7.1874 公斤。
+                <br>运费：7187克 取算7200克；7200克 x 1.2美元 / 100克 x 90% (打九折) = 77.76 美元。
+                </span>
+            </p>
+            <br>
+
+            <p>
+                * 包裹中如有片状面膜，每单收取3刀额外费用，重量不限。
+                <br><br>
+                * 带有内置电池的产品，每单收取3刀额外费用，重量不限。
+                <br><br>
+                * 包裹单边长超过1.2米，收取<b>超长费$180</b>。
+                <br>
+            </p>
+
+        </div>
+<!--计算器-->
+        <div class="col-sm-4 calculator padding2em" id="theCalculator">
+            <h4> <i class="fas fa-calculator"></i> 运费计算器</h4>
+            <br>
+            <form>
+                <div class="form-group">
+                    <label for="packageLength">长 <span class="text-muted">cm厘米</span></label>
+                    <input type="number" class="form-control" id="packageLength" value="0" min="1" required placeholder="包裹长度">
+                </div>
+
+                <div class="form-group">
+                    <label for="packageWidth">宽 <span class="text-muted">cm厘米</span></label>
+                    <input type="number" class="form-control" id="packageWidth"  value="0" min="1" required  placeholder="包裹宽度">
+                </div>
+
+                <div class="form-group">
+                    <label for="packageHeight">高 <span class="text-muted">cm厘米</span></label>
+                    <input type="number" class="form-control" id="packageHeight" value="0" min="1" required  placeholder="包裹高度">
+                </div>
+
+                <div class="form-group">
+                    <label for="packageWeight">重量 <span class="text-muted">g克</span></label>
+                    <input type="number" class="form-control" id="packageWeight" value="0" min="1" required  placeholder="包裹重量">
+                </div>
+
+                <button type="submit" class="btn btn-primary float-right">运费估算</button>
+                <br><br>
+
+                <div class="form-group">
+                    <label for="volume">体积  <span class="text-muted">cm³立方厘米</span></label>
+                    <input type="number" class="form-control" id="volume" value="0" min="0" required placeholder="抛货重量">
+                </div>
+
+                <div class="form-group">
+                    <label for="fastFinalTotal"> <i class="fas fa-plane-departure"></i>  极速空运 <span class="text-muted">(美元$1.2/100克)</span></label>
+                    <input type="text" class="form-control" id="fastFinalTotal" value="0.0" placeholder="估算结果">
+                </div>
+
+                <div class="form-group">
+                    <label for="fastFinalTotal"><i class="fas fa-dolly-flatbed"></i> 极省海运 <span class="text-muted">(美元$5 / 公斤kg)</span></label>
+                    <input type="text" class="form-control" id="savingFinalTotal" value="0.0" placeholder="估算结果">
+                </div>
+            </form>
+            <p class="float-right text-right">
+                <br>
+                <a href="#"><i class="fas fa-question-circle"></i>《新手指南》/ 《禁运列表与细则》</a>
+            </p>
+        </div>
+    </div>
+    </div>
+<!--footer-->
+    <footer class="pt-4 my-md-5 pt-md-5 border-top">
+        <div class="row">
+            <div class="col-12 col-md">
+                <img class="mb-2" src="../image/branding/SG_yellow.png" alt="" width="50" height="50">
+                <small class="d-block mb-3 ">&copy; Bluejay, Inc. 2017-2019</small>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Cool stuff</a></li>
+                    <li><a class="text-muted" href="#">Random feature</a></li>
+                    <li><a class="text-muted" href="#">Team feature</a></li>
+                    <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                    <li><a class="text-muted" href="#">Another one</a></li>
+                    <li><a class="text-muted" href="#">Last time</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Resource</a></li>
+                    <li><a class="text-muted" href="#">Resource name</a></li>
+                    <li><a class="text-muted" href="#">Another resource</a></li>
+                    <li><a class="text-muted" href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5>About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a class="text-muted" href="#">Team</a></li>
+                    <li><a class="text-muted" href="#">Locations</a></li>
+                    <li><a class="text-muted" href="#">Privacy</a></li>
+                    <li><a class="text-muted" href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+<!--<script>-->
+
+
+<!--// 小站显示-->
+<!--$(function() {-->
+    <!--$("#accordion").accordion({-->
+        <!--active: false,-->
+        <!--autoHeight: false,-->
+        <!--navigation: true,-->
+        <!--collapsible: true,-->
+        <!--event: "mouseover"-->
+    <!--});-->
+<!--});-->
+
+<!--// 谷歌地图-->
+<!--var map;-->
+<!--function initMap() {-->
+    <!--map = new google.maps.Map(document.getElementById('map'), {-->
+        <!--center: {lat: -34.397, lng: 150.644},-->
+        <!--zoom: 8-->
+    <!--});-->
+<!--}-->
+
+<!--// 运费计算器-->
+    <!--function calculate() {-->
+        <!--'calculate fastLine'-->
+
+        <!--var fastFinalTotal; //极速最终价格-->
+
+        <!--var packageLength  = document.getElementById('packageLength').value;-->
+        <!--var packageWidth   = document.getElementById('packageWidth').value;-->
+        <!--var packageHeight  = document.getElementById('packageHeight').value;-->
+        <!--var packageWeight  = document.getElementById('packageWeight').value;-->
+        <!--var volume = packageLength * packageWidth * packageHeight;-->
+        <!--var fastWeight = Math.ceil(packageWeight/100); //向上取整-->
+        <!--var fastWeightPrice = fastWeight * 1.2;-->
+        <!--var fastVolumePrice = (packageLength * packageWidth * packageHeight) / 5000 * 10 * 1.2; //体积重-->
+        <!--var fastTotal = Math.max(fastWeightPrice,fastVolumePrice); //取较高价格-->
+
+
+        <!--if (packageLength > 120 || packageWidth > 120 || packageHeight > 120 ){-->
+            <!--fastFinalTotal = fastTotal * 90 / 100 + 180;-->
+            <!--console.log(180)-->
+        <!--} else if (fastTotal >= 24) {-->
+            <!--fastFinalTotal = fastTotal * 90/100;-->
+            <!--console.log(0.9)-->
+        <!--} else {-->
+            <!--fastFinalTotal = fastTotal;-->
+            <!--console.log(0)-->
+        <!--}-->
+
+        <!--// 显示计算结果 display final price-->
+        <!--document.getElementById('volume').value = volume;-->
+        <!--document.getElementById('fastFinalTotal').value = fastFinalTotal;-->
+        <!--return false; // to prevent form submission-->
+    <!--}-->
+
+    <!--function init() {-->
+        <!--'calculate fastLine';-->
+
+        <!--var theCalculator = document.getElementById('theCalculator');-->
+        <!--theCalculator.onsubmit = calculate;-->
+    <!--}-->
+    <!--window.onload = init;-->
+
+<!--</script>-->
+
+
+<!--jquery-->
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+<!--google map & Key-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGNGRJmTRf_IiTBXRvRsuupuZxWyjx9Uk&callback=initMap"
+        async defer></script>
+
+<!--jquery-->
+<script src="../js/fastLineSavingLine.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,510 @@
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Font is using Google Font 'Nunito Sans' */
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5rem;
+    box-sizing: border-box;
+}
+
+h4 {
+    font-size:24px;
+    margin: 0 0 1rem 0;
+    padding:0;
+    font-weight: bold;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 0 0 1rem 0;
+    padding:0;
+    font-weight: bold;
+}
+
+h6  {
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+    padding:0;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+    padding:0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 768px;
+    margin: auto;
+}
+
+.bottomBar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    max-width: 768px;
+    margin: auto;
+    bottom: 0;
+    padding: 0;
+    color: #000000;
+    z-index: 9;
+}
+
+.tabButtonNone{
+    border: 1px solid #F9F9F9;
+}
+
+.bottomBar a {
+    display: inline-block;
+    width: 25%;
+    padding: 1rem 0.5rem;
+    margin: 0;
+    text-align: center;
+    background-color: #ffffff;
+    font-weight: 400;
+    color: #000000;
+    font-size: 0.8rem;
+    border-right: 1px solid #F9F9F9;
+    border-bottom: 1px solid #F9F9F9;
+}
+
+.bottomBar a:hover {
+    background-color: #F9F9F9;
+    color: #000000;
+}
+
+.bottomBar a:active {
+    background-color: #eeeeee;
+    color: #000000;
+}
+
+.tabButtonHighlight {
+    border-top: 4px solid #000000;
+    border-bottom: 1px solid #F9F9F9;
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+#tab1Content {
+    margin-top: 5rem;
+}
+
+#tab2Content {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+#tab3Content {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+#tab4Content {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+#tab4SubContent {
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: block;
+    width: 100%;
+    max-width: 768px;
+    background-color: #ffffff;
+    z-index: 9;
+}
+
+.headerBlock {
+    display: block;
+    width: 100%;
+    padding: 1.4rem 1rem 0.5rem 1rem;
+    border-bottom: 1px solid #eeeeee;
+    vertical-align: middle;
+}
+
+#stepBack {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.logo {
+    text-align: center;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+
+.logo img {
+    width: 100px;
+}
+
+.language {
+    cursor: pointer;
+    /*float: right;*/
+    text-align: right;
+    vertical-align: middle;
+}
+
+.language-dropdown-content {
+    display: none;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffff;
+    width: 100%;
+    max-width:768px;
+    overflow: auto;
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.language-dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+/*tab 1 content - details */
+
+.product-image {
+    position: relative;
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 4px;
+}
+
+.product-title{
+    display: inline-block;
+}
+
+.share {
+    padding: 0.5rem 0 0 0;
+    float: right;
+}
+
+.share-icon {
+    border: 1px solid #eeeeee;
+    border-radius: 100%;
+}
+
+
+.link-to-more {
+    text-decoration: underline;
+    color: #808080;
+    cursor: pointer;
+}
+
+#tab1moreContent{
+    display: none;
+}
+/*tab 2 - care*/
+
+.carelist {
+    list-style: none;
+}
+
+.carelist img{
+    vertical-align: middle;
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.laundry-icons {
+    display: block;
+}
+
+.icon-box {
+    display: table;
+    margin: 0 auto;
+}
+
+.icon-box img{
+    padding: 0 0.5rem;
+}
+
+/* tab 3 content */
+.flex-container {
+    display: flex;
+    /*padding: 0;*/
+    margin: 0;
+}
+
+.flex-child {
+    flex:1;
+}
+
+.block {
+    display: block;
+    width: 100%;
+}
+
+.half-block{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.half-block img{
+    width: 100%;
+}
+
+.tab3title {
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+.tab3text {
+    font-size: 12px;
+    margin: 0 0 0.5rem 0.5rem;
+}
+
+#tab3moreContent1 {
+    display: none;
+}
+
+#tab3moreContent2 {
+    display: none;
+}
+
+.care-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.care-item {
+    max-width: 50px;
+    flex-grow:1;
+    padding: 0.2rem;
+}
+
+.care img {
+    max-width:100%;
+}
+
+fieldset {
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #cccccc;
+    margin: 1rem 0;
+}
+
+.address-input {
+    border: none;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #cccccc;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+    color: #cccccc;
+}
+
+::placeholder {
+    color: #cccccc;
+}
+
+
+.address-list {
+    border-bottom: 1px solid #eeeeee;
+    padding: 1rem 0 0 0.5rem;
+    cursor: pointer;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 400px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 12px;
+}
+
+.address-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* The modal Close Icon */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.address-button {
+    background-color: #d8d8d8;
+    border: none;
+    color: black;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    /*margin: 4px 2px;*/
+    cursor: pointer;
+    border-radius: 32px;
+}
+
+/* tab 4 content */
+
+.journey-main-list {
+    border-bottom: 1px solid #eeeeee;
+    padding: 1rem 0 0 0.5rem;
+    cursor: pointer;
+}
+
+.journey-small-text {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.align-right {
+    text-align: right;
+}
+
+
+/* tab 4 sub content- timeline of journey */
+
+.history-tl-container{
+    max-width:100%;
+    margin:auto;
+    display:block;
+    position:relative;
+}
+.history-tl-container ul.tl{
+    margin:20px 0;
+    padding:0;
+    display:inline-block;
+
+}
+.history-tl-container ul.tl li{
+    list-style: none;
+    margin:auto;
+    margin-left:90px;
+    min-height:50px;
+    /*background: rgba(255,255,0,0.1);*/
+    border-left:1px solid #d8d8d8;
+    padding:0 0 40px 30px;
+    position:relative;
+}
+.history-tl-container ul.tl li:last-child{ border-left:0;}
+.history-tl-container ul.tl li::before{
+    position: absolute;
+    left: -10px;
+    top:0;
+    content: " ";
+    border: 8px solid #d8d8d8;
+    border-radius: 500%;
+    background: #d8d8d8;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+
+}
+.history-tl-container ul.tl li:hover::before{
+    border-color:  #d8d8d8;
+    transition: all 1000ms ease-in-out;
+}
+ul.tl li .item-title{
+}
+
+ul.tl li .item-detail{
+    color:#333333;
+    font-size:12px;
+}
+
+ul.tl li .timestamp{
+    color: #333333;
+    position: absolute;
+    width:50px;
+    left: -50%;
+    text-align: right;
+    font-size: 12px;
+}
+
+
+
+/* SHOW is to toggle show/hide of language-dropdown-menu and it stays at the *END* of this CSS file so that the Javascript will load properly */
+.show {
+    display: block;
+}
+
+/**** CSS end here */

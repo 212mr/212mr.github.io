@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <title>AD White Label App Product Information</title>
+    <link rel="icon" type="image/icon" href="image/AVY_icon.png"/>
+
+    <!--  css and fonts-->
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics HERE or anything to collect the click rate-->
+</head>
+
+
+<!-- This is updated on june 08th 2021 based on Sketch white label app 2.0 with bottom bar nav -->
+<body>
+<div class="container">
+    <header>
+        <div class="headerBlock flex-container">
+            <div class="flex-child" id="stepBack"> &lt; Back</div>
+            <div class="logo flex-child" id="tabOne"><a href="#"><img src="image/uniti_logo.png" alt="logo"></a></div>
+            <div class="language flex-child" id="languageClick">
+                <img src="image/earthIcon.svg" alt="earth icon"> ENG
+            </div>
+        </div>
+
+        <div id="languageDropdown" class="language-dropdown-content">
+            <a href="#">English</a>
+            <a href="#">French / Française</a>
+            <a href="#">Italian / Italiana</a>
+            <a href="#">German / Deutsche</a>
+            <a href="#">Spanish / Española</a>
+            <a href="#">Chinese Simplified / 中文简体</a>
+            <a href="#">Japanese / 日本語</a>
+            <a href="#">Portuguese / Portugues</a>
+        </div>
+    </header>
+
+
+    <div class="bottomBar">
+        <a href="#tab1Content" class="bottomBox" id="tab1Button">
+        Detail</a><a href="#tab2Content" class="bottomBox" id="tab2Button">
+        Care</a><a href="#tab3Content" class="bottomBox" id="tab3Button">
+        Circularity</a><a href="#tab4Content" class="bottomBox" id="tab4Button">
+        Journey</a>
+    </div>
+
+    <div class="wrapper">
+
+<!--     Tab 1 - Content - Details -->
+            <div id="tab1Content">
+                <div class="product-image">
+                    <a href="index.html"> <img src="image/uniti-Hoodie-Yellow-Grey.png" alt="product image"> </a>
+                </div>
+                <div class="product-title">
+                    <h5>Anatomy Pullover Hoodie</h5>
+                    <p>CHRT | Style No. 13579</p>
+                </div>
+                <div class="share">
+<!--   SHARE needs to open the mobile phone default sharing features (example ZARA website share buttonPatagoniaBefore)-->
+                    <a href="#"> <img src="image/share_icon2.svg" alt="share_icon" class="share-icon"> </a>
+                </div>
+
+                <h6>Hoodie by UNITI</h6>
+                <p>Easy going and stress free, the Anatomy Pullover Hoodie is comfortable and classic.
+                    Soft fleece and a relaxed fit add to the comfortable feel of this laidback streetwear essential.
+                    <span id="tab1dots">...</span>
+                </p>
+
+<!--                After click 'read more' the content will show more -->
+                 <div id="tab1moreContent">
+                        <p>
+                            Care for fiber: at least 15% recycled cotton & 25% recycled polyester. We use the Real Life label for items that have been produced using technologies and raw materials that help us reduce the environmental impact of our products.
+                        <ul>
+                            <li>Sleeve length - Long sleeve</li>
+                            <li>Ribbed cuffs and hem</li>
+                            <li>On-seam welt pockets</li>
+                            <li>Weight - 0.51 KG</li>
+                            <li>Imported - Yes</li>
+                        </ul>
+                        <h6>Materials and Region</h6>
+                        <ul>
+                            <li>81% cotton, 19% polyester</li>
+                            <li>Made In USA</li>
+                        </ul>
+                  </div>
+
+                 <a id="tab1readMoreLink"> Read more &gt;&gt; </a>
+
+              </div>
+
+<!--     Tab 2 - Content - Care -->
+              <div id="tab2Content">
+                    <ul class="carelist">
+                        <li><img src="image/Wash_icon.svg" alt="laundry-icons"> <span>Machine Wash Cold. </span> </li>
+                        <li><img src="image/bleach_icon.svg" alt="laundry-icons"> <span>Do Not Bleach. </span> </li>
+                        <li><img src="image/dry_icon.svg" alt="laundry-icons"> <span>Tumble Dry Low. </span> </li>
+                        <li><img src="image/iron_icon.svg" alt="laundry-icons"> <span>Warm Iron. </span> </li>
+                    </ul>
+                </div>
+
+<!--     Tab 3 - Content - Circularity -->
+              <div id="tab3Content">
+                  <div class="flex-container">
+                      <div class="half-block flex-child">
+                          <img src="image/uniti-Hoodie-Yellow-Grey.png" alt="product image">
+                      </div>
+                      <div class="half-block  flex-child">
+                                <div class="block">
+                                    <h6 class="tab3title">Anatomy Pullover Hoodie</h6>
+                                    <p class="tab3text">CHRT | Style No. 13579</p>
+                                </div>
+                                <div class="block">
+                                      <div class="care-container">
+                                          <div class="care-item"><img src="image/Wash_icon.svg" alt="laundry-icons"></div>
+                                          <div class="care-item"><img src="image/bleach_icon.svg" alt="laundry-icons"></div>
+                                          <div class="care-item"><img src="image/dry_icon.svg" alt="laundry-icons"></div>
+                                          <div class="care-item"><img src="image/iron_icon.svg" alt="laundry-icons"></div>
+                                      </div>
+                                </div>
+                      </div>
+                  </div>
+
+                  <div class="block">
+                      <h6>Circularity</h6>
+                      <p>All of our products are made by independent suppliers, often in developing countries where our presence can make a real difference.
+                          Our business helps to create jobs and independence, particularly for consequently lifting people
+
+                          <span id="tab3dots">...</span>
+
+                          <span  id="tab3moreContent1">
+                              out of poverty and contributing to economic growth. We only work with partners who share our respect for people and the environment,
+                          and who are willing to work with us to improve their practices. All suppliers and factories must sign our strict Sustainability Commitment,
+                          which includes requirements for fair wages and good working conditions for all. We employ a dedicated sustainability staff in our
+                          worldwide production offices to make sure the commitment is followed.
+                          </span>
+                      </p>
+
+                      <div  id="tab3moreContent2">
+                              <h6>CERTIFICATIONS</h6>
+                              <p>We only use recycled material certified by organizations that perform monitoring from origin through the final product.
+                                  We are currently working with:</p>
+                              <ul>
+                                  <li> Global Recycled Standard (GRS)</li>
+                                  <li> Recycled Content Standard (RCS)</li>
+                              </ul>
+                      </div>
+                      <a id="tab3readMoreLink"> Read more &gt;&gt; </a>
+
+                      <div class="fieldset">
+                          <fieldset form="form">
+                              <legend> You are at 94085 </legend>
+                              <label class="address">
+                                  <input type="text" name="address" placeholder="Search address" class="address-input">
+                              </label>
+                          </fieldset>
+                          <form id="form" onSubmit="return false"></form>
+                      </div>
+
+                      <div class="address-list" id="address1">
+                          <p>Address Name</p>
+                      </div>
+                      <div class="address-list" id="address2">
+                          <p>Address Name</p>
+                      </div>
+                      <div class="address-list" id="address3">
+                          <p>Address Name</p>
+                      </div>
+
+<!--                      address1-->
+                      <div id="addressModal1" class="modal">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                              <span class="close" id="addressClose1">&times;</span>
+                              <p>Store Name 1</p>
+                              <p>Address 123 Uniti Street, San Francisco, CA 95107</p>
+                              <p>Tel: 123-456-789</p>
+                              <p>Open: Mon-Sun 9am-5pm </p>
+
+                              <div class="address-container">
+                                <button class="address-button">Directions &#8599;</button>
+                              </div>
+                          </div>
+                      </div>
+
+<!--                      address2-->
+                      <div id="addressModal2" class="modal">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                              <span class="close" id="addressClose2">&times;</span>
+                              <p>Store Name 2</p>
+                              <p>Address 123 Uniti Street, San Francisco, CA 95107</p>
+                              <p>Tel: 123-456-789</p>
+                              <p>Open: Mon-Sun 9am-5pm </p>
+
+                              <div class="address-container">
+                                  <button class="address-button">Directions &#8599;</button>
+                              </div>
+                          </div>
+                       </div>
+
+<!--                      address3-->
+                      <div id="addressModal3" class="modal">
+                          <!-- Modal content -->
+                          <div class="modal-content">
+                              <span class="close" id="addressClose3">&times;</span>
+                              <p>Store Name 3</p>
+                              <p>Address 123 Uniti Street, San Francisco, CA 95107</p>
+                              <p>Tel: 123-456-789</p>
+                              <p>Open: Mon-Sun 9am-5pm </p>
+
+                              <div class="address-container">
+                                  <button class="address-button">Directions &#8599;</button>
+                              </div>
+                          </div>
+                       </div>
+<!--                      address modal ends here-->
+
+                  </div>
+              </div>
+
+<!--     Tab 4 - Content - Journey -->
+              <div id="tab4Content">
+
+                    <div class="flex-container">
+                        <div class="half-block flex-child">
+                            <img src="image/uniti-Hoodie-Yellow-Grey.png" alt="product image">
+                        </div>
+                        <div class="half-block flex-child">
+                            <div class="block">
+                                <h6 class="tab3title">Anatomy Pullover Hoodie</h6>
+                                <p class="tab3text">CHRT | Style No. 13579</p>
+                            </div>
+                            <div class="block">
+                                <div class="care-container">
+                                    <div class="care-item"><img src="image/Wash_icon.svg" alt="laundry-icons"></div>
+                                    <div class="care-item"><img src="image/bleach_icon.svg" alt="laundry-icons"></div>
+                                    <div class="care-item"><img src="image/dry_icon.svg" alt="laundry-icons"></div>
+                                    <div class="care-item"><img src="image/iron_icon.svg" alt="laundry-icons"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                          <h6>Journey</h6>
+
+                          <div id="journeyMain1" class="journey-main-list flex-container">
+                              <div class="half-block flex-child">
+                                  <p class="journey-small-text">Location of city/region</p>
+                                  <p>Recycle, event name </p>
+                              </div>
+                              <div class="half-block flex-child align-right">
+                                  <p class="journey-small-text">04/16/2021</p>
+                                  <p class="journey-small-text">Total: 2.075 kg CO<sub>2</sub></p>
+                              </div>
+                          </div>
+
+                          <div id="journeyMain2" class="journey-main-list flex-container">
+                            <div class="half-block flex-child">
+                                <p class="journey-small-text">Location of city/region</p>
+                                <p>Retail, event name </p>
+                            </div>
+                            <div class="half-block flex-child align-right">
+                                <p class="journey-small-text">04/16/2021</p>
+                                <p class="journey-small-text">+ 0.075 kg CO<sub>2</sub></p>
+                            </div>
+                          </div>
+
+                          <div  id="journeyMain3" class="journey-main-list flex-container">
+                            <div class="half-block flex-child">
+                                <p class="journey-small-text">Location of city/region</p>
+                                <p>Packing, event name </p>
+                            </div>
+                            <div class="half-block flex-child align-right">
+                                <p class="journey-small-text">04/16/2021</p>
+                                <p class="journey-small-text">+ 0.075 kg CO<sub>2</sub></p>
+                            </div>
+                          </div>
+
+                        <div  id="journeyMain4" class="journey-main-list flex-container">
+                            <div class="half-block flex-child">
+                                <p class="journey-small-text">Location of city/region</p>
+                                <p>Packing, event name </p>
+                            </div>
+                            <div class="half-block flex-child align-right">
+                                <p class="journey-small-text">04/16/2021</p>
+                                <p class="journey-small-text">+ 0.075 kg CO<sub>2</sub></p>
+                            </div>
+                        </div>
+
+                      </div>
+
+              </div>
+
+<!--Tab 4 Sub Content - Timeline of journey-->
+                 <div id="tab4SubContent">
+                    <div class="history-tl-container">
+                <ul class="tl">
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            year <br> date
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">Total 2.075 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            2020<br> 1/15
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">+ 0.075 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            2019<br> 2/23
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">0 kg CO<sub>2</sub> </div>
+                    </li>
+
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            year <br> date
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">Total 2.075 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            2020<br> 1/15
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">+ 0.075 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            2019<br> 2/23
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">0 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            year <br> date
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">Total 2.075 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            2020<br> 1/15
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">+ 0.075 kg CO<sub>2</sub> </div>
+                    </li>
+                    <li class="tl-item" ng-repeat="item in retailer_history">
+                        <div class="timestamp">
+                            2019<br> 2/23
+                        </div>
+                        <div class="item-detail">Location of city/region</div>
+                        <div class="item-title">Event Name</div>
+                        <div class="item-detail">0 kg CO<sub>2</sub> </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>

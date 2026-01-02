@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="松果物流，专业国际转运，共享物流社区">
+    <meta name="keywords" content="松果,松果网,pinecone,转运,淘宝转运,拼邮,海运,国内转运,">
+
+    <title>新手须知 - Pinecone Go</title>
+    <link rel="icon" type="image/icon" href="../image/branding/SG_trans.png"/>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Candal&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body>
+
+<!--<header>-->
+<!--    &lt;!&ndash;横轴目录 大屏幕&ndash;&gt;-->
+<!--    <nav class="navbar navbar-expand-md navbar-dark bg-dark">-->
+<!--        <a class="navbar-brand" href="../index3.html"><img class="logo" src="../image/branding/SG_trans.png" alt="logo"></a>-->
+<!--        <buttonPatagoniaBefore class="navbar-toggler" type="buttonPatagoniaBefore" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </buttonPatagoniaBefore>-->
+
+<!--        <div class="collapse navbar-collapse" id="navbarsExample04">-->
+<!--            <ul class="navbar-nav mr-auto">-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link" href="../index3.html">松果 <span class="sr-only">(current)</span></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="qanda.html">新手须知</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="fastLine.html">极速拼运</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="savingLine.html">极省大包</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="recommendations.html">每日推荐</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="priceCalculator.html">运费估算</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item dropdown">-->
+<!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+<!--                    <div class="dropdown-menu" aria-labelledby="dropdown04">-->
+<!--                        <a class="dropdown-item" href="#">Action</a>-->
+<!--                        <a class="dropdown-item" href="#">Another action</a>-->
+<!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+<!--                    </div>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--            <div class="my-2 my-md-0">-->
+<!--                <buttonPatagoniaBefore class="btn btn-outline-warning" type="buttonPatagoniaBefore" data-toggle="modal" data-target="#exampleModalCenter" style="width:80px; height:40px;">客服</buttonPatagoniaBefore>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </nav>-->
+<!--</header>-->
+
+<header>
+    <!--横轴目录 大屏幕-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="../index3.html"><img class="logo" src="../image/branding/SG_trans.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+                aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../index3.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="qanda.html">INTRODUCTION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="fastLine.html">AIR TRANSPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="savingLine.html">SEA TRANSPORT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="recommendations.html">RECOMMENDATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="priceCalculator.html">PRICE</a>
+                </li>
+                <!--<li class="nav-item">-->
+                <!--<a class="nav-link" href="#">禁运清单</a>-->
+                <!--</li>-->
+                <!--                <li class="nav-item dropdown">-->
+                <!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+                <!--                    <div class="dropdown-menu" aria-labelledby="dropdown04">-->
+                <!--                        <a class="dropdown-item" href="#">Action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Another action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                <!--                    </div>-->
+                <!--                </li>-->
+
+            </ul>
+            <div class="my-2 my-md-0">
+                <button class="btn btn-outline-warning" type="button" data-toggle="modal"
+                        data-target="#exampleModalCenter" style="width:80px; height:40px;">Help
+                </button>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- 客服微信跳出 Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-muted" id="exampleModalCenterTitle">客服微信 <i class="fab fa-weixin"></i> WeChat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="padding: 3em;">
+                <img class="img-fluid" src="../image/QRcode_appStore/WechatCusomerService.png" alt="wechat service">
+            </div>
+            <div class="modal-footer text-muted">
+                <p><i class="fab fa-weixin"></i> 客服将尽快与您联系</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+<!--新手须知-->
+    <h2 class="margin3auto">Welcome to PineconeGo Community!</h2>
+    <p><b><i class="fas fa-warehouse"></i> - Lorem ipsum dolor sit amet</b>
+        <br>
+        <br>
+        Address：Lorem ipsum dolor sit amet<br>
+        Phone：+86 13250743412<br>
+        Name：Lorem ipsum dolor sit amet<br>
+        Zip code：510420
+    </p>
+    <br>
+    <p>
+        <b><i class="fas fa-dolly-flatbed"></i> - Lorem ipsum dolor sit amet</b>
+        <br> <br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Donec enim diam vulputate ut pharetra sit amet aliquam id.
+
+
+    </p>
+    <!--<div class="q-and-a-box margin3auto">-->
+        <!--<div class="row">-->
+            <!--<div class="col-4">-->
+                <!--<div id="list-example" class="list-group">-->
+                    <!--<a class="list-group-item list-group-item-action" href="#list-item-1"><b>新手须知</b></a>-->
+                    <!--<a class="list-group-item list-group-item-action" href="#list-item-2">- 使用流程</a>-->
+                    <!--<a class="list-group-item list-group-item-action" href="#list-item-3">- 充值服务</a>-->
+                    <!--<a class="list-group-item list-group-item-action" href="#list-item-4">- xxxx</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="col-8">-->
+                <!--<div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">-->
+                    <!--<h4 id="list-item-1">新手须知</h4>-->
+                    <!--<p>-->
+
+                        <!--您好，欢迎您来到松果社区。-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--我们的共享物流线路目前有两条，分别满足不同产品寄送的需要——-->
+                        <!--<br>-->
+                        <!--<a href="#">松果极速 <i class="fas fa-mouse-pointer"></i></a>，针对中小包裹用户，每周至少发货一次，发货后3-7天到达松果取货小站。100g起运，$1.2/100g, 单个包裹2kg及以上享受运费9折。可以让您基本实现与境内网购无差异的购物体验，随买随运，多快好省。-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--<a href="#">松果极省 <i class="fas fa-mouse-pointer"></i></a>，针对中大包用户和企业用户，每周发货一次，发货后三周到达松果取货小站，15公斤以上送货上门。 3kg起运，$5/kg, 可以让您最大程度节省运费的同时也不用忍受常规海运路线的漫长等待。-->
+
+                    <!--</p>-->
+                    <!--<h4 id="list-item-2">使用流程</h4>-->
+                    <!--<p>-->
+                        <!--1. 账号登陆-->
+                        <!--目前您可以选择在本系统登陆的方式有:-->
+                        <!--<br>微信一键登录-->
+                        <!--<br>邮箱注册登录-->
+                        <!--登录以后就可以开始享受我们的服务啦！-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--2. 禁运清单-->
+                        <!--在寄出包裹前，请先查阅我们极速线的<b>禁运清单</b></a>-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--3. 运费估算-->
+                        <!--两条线路均 <a href="#"><b>计算抛货重量(即体积重) <i class="fas fa-mouse-pointer"></i></b></a>，最终收费重量为实际重量和体积重之间的较大者。同时您的物品外盒如果超长或为某些特殊产品，我们会收取额外费用。所有这些，您都可以在我们的运费估算界面自行估值.-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--4. 收货地址-->
+                        <!--所有需要寄送的包裹请统一发往我们国内的仓库:-->
+                        <!--<span class="text-muted">-->
+                        <!--<br>-->
+                            <!--<br>-->
+                        <!--地址：广州白云区太和镇广从二路268号汇雅花园内汇雅街138号;-->
+                        <!--<br>-->
+                        <!--收件人： 你的名字  转SG （如: “李明 转SG”);-->
+                        <!--<br>-->
+                        <!--电话： 13250743412;-->
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--</span>-->
+
+                        <!--5. 寻找最近提货点-->
+                        <!--所有跟我们合作的取货小站都在首页的 <a href="#">松果小站列表 <i class="fas fa-mouse-pointer"></i></a> 区域，如果您在登录时已经分享了自己的位置，系统将按照与您目前位置的距离来排列小站。-->
+                        <!--<br>-->
+                        <!--我们的取货小站目前分为两类：-->
+                        <!-- - 常规小站: 每周七天开放多个不同的时间段供您取货-->
+                        <!-- - 快闪小站: 主要服务特定公司区域，员工步行可拿包裹。每周只在某一天中午的特定时间提供2小时取货服务。-->
+
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--6. 包裹添加-->
+                        <!--当您的包裹被寄出后，您就可以在松果系统填单了。我们系统根据您的快递单号来全程追踪和处理您的包裹，所以您需要以每个快递单号为单位在我们系统进行录入（如：有三个快递单号的话就填单三次，以此类推。有的时候您在购物网站下了一单，但商家分成了两单把物品寄出，那您就需要在我们的系统填两次单，以方便我们仓库追踪所有的包裹）.-->
+                        <!--<br>-->
+                        <!-- - <a href="">松果极速 <i class="fas fa-mouse-pointer"></i></a>-->
+                        <!--我们首页的每个取货小站点进去，就能直接添加松果极速的包裹了。您也可选择菜单中央的“＋”键直接进入填单页面。-->
+                        <!--<br>-->
+                        <!-- - <a href="">松果极省 <i class="fas fa-mouse-pointer"></i></a>-->
+                        <!--在极省页面找到对应的开放品名点进去，就能添加松果极省的包裹了，不在开放品名的包裹请选择“其他大包”，您也可选择菜单中央的“＋”键直接进入填单页面。-->
+
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--7. 称重与付费-->
+                        <!--我们仓库在录入包裹后就会尽快对您的包裹进行称重和测量。（注：仓库不提供包裹合并服务，所有包裹都以快递号为单位单独称重）称重完成后您可以在订单页面的“待付款”目录下看到包裹收费信息。-->
+                        <!--<br>-->
+                        <!--与星巴克app类似，松果系统采用 <a href="">充值付费</a> 方式。 最低充值$5兑换500积分，单次充值$20 及以上，可以额外获得10%等值积分。所以2kg以上包裹运费等于是原价的81折哦。-->
+
+                        <!--<br>-->
+                        <!--<br>-->
+                        <!--8. 发货与取货-->
+                        <!--所有极速线都每周发货一次，时间一般是固定的，每个小站的进度条下面都会显示当前站点的本轮发货时间。所以大家一定要在发货截止时间前完成付费，然后就静待包裹吧！-->
+
+                        <!--包裹到达收货小站后，您就可以根据小站开放的取货时间段去取货啦。记得当面确认包裹数量及物品是否完好。如有任何问题，请及时联系我们客服。-->
+
+                        <!--<br>最后，感谢您的耐心阅读。 Now, PineCone GO!-->
+                    <!--</p>-->
+                    <!--<h4 id="list-item-3">Item 3</h4>-->
+                    <!--<p>Quis anim sit do amet fugiat dolor velit sit ea ea do reprehenderit culpa duis. Nostrud aliqua ipsum fugiat minim proident occaecat excepteur aliquip culpa aute tempor reprehenderit. Deserunt tempor mollit elit ex pariatur dolore velit fugiat mollit culpa irure ullamco est ex ullamco excepteur.</p>-->
+                    <!--<h4 id="list-item-4">Item 4</h4>-->
+                    <!--<p>Quis anim sit do amet fugiat dolor velit sit ea ea do reprehenderit culpa duis. Nostrud aliqua ipsum fugiat minim proident occaecat excepteur aliquip culpa aute tempor reprehenderit. Deserunt tempor mollit elit ex pariatur dolore velit fugiat mollit culpa irure ullamco est ex ullamco excepteur.</p>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</div>-->
+
+    <div class="margin3auto">
+        <img src="../image/branding/newUser/newProcess2b.png" alt="process" class="figure-img img-fluid rounded">
+        <!--<iframe src="../image/branding/newUser/newProcess.pdf#toolbar=0" width="100%">-->
+        <!--</iframe>-->
+    </div>
+
+<!--禁运清单-->
+    <h2>Product List</h2>
+    <br>
+    <p><i class="fas fa-exclamation-circle"></i> - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing elit pellentesque habitant morbi tristique senectus et netus. Donec enim diam vulputate ut pharetra sit amet aliquam id. </p>
+    <div class="q-and-a-box margin3auto">
+        <div class="table-responsive">
+            <table class="table table-striped table-sm">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>禁运类别</th>
+                    <th>禁运原则</th>
+                    <th>禁运实例</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>液体</td>
+                    <td>水/乳液/霜/露/啫喱/胶/膏/泥状化妆品</td>
+                    <td>洁面奶/啫喱，卸妆油/水，化妆水，乳液，面霜，眼霜，润肤露，面膜泥，磨砂膏，睫毛膏，粉底液，唇彩，眼线液，指甲油，香体露/滚珠，香水，压缩泡沫/喷雾类如防晒泡沫/喷雾，压缩止汗剂，定型摩丝等</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>个人护理品</td>
+                    <td>隐形眼镜，美瞳，隐形眼镜护理液，发膜，牙膏，发胶啫喱，刮胡泡等</td>
+                    <td> </td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>国际品牌/仿牌</td>
+                    <td><b>国际大牌不论正品或者仿品均不承运</b></td>
+                    <td>LV, Chanel, Prada, Fendi, Gucci, Dior, Hermes, Balenciaga, Coach, Chloe, Valentino, Givenchy, Celine, Bottega Veneta, Michael Kors (MK), Kate Spade，Rolex等</td>
+
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>粉末状物品</td>
+                    <td>不论任何颜色的粉末</td>
+                    <td>爽身粉，浴盐，足用药粉，沙子，中药粉，颜料粉，奶粉等</td>
+
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>带电带强磁物品</td>
+                    <td>内置电池类物品及未加消磁防护包装的<b>强磁性</b>物品</td>
+                    <td>充电宝，<b>内置锂电池的各种产品</b>，音箱，干电池，磁铁，磁性墙贴等</td>
+
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>任何药品/保健品</td>
+                    <td>非处方/处方药，中药/中成药，精神类、成瘾类、麻醉类药品，含液体粉末药品，毒药</td>
+                    <td>头孢等抗生素，白加黑等各种感冒药，减肥药，高血压药，板蓝根，咳喘宁，复方甘草片，药物样品，含鸦片，可卡因，吗啡，麻黄素等成分的药品等</td>
+
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>媒体出版物</td>
+                    <td>非法/盗版出版物、印刷品、音像制品等宣传品</td>
+                    <td>盗版书籍、软件和音像制品，<b>内容涉及国家秘密的物品</b>，反动、淫秽、法轮功等的书籍及音像制品等</td>
+
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>管制刀具及武器弹药</td>
+                    <td>管制刀具，武器弹药及各种仿真武器</td>
+                    <td>仿真玩具枪，菜刀，斩骨刀，匕首、弹簧刀，收藏刀、竞技类刀剑，瞄准镜等</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>国家货币，证券，贵重金银珠宝以及古玩</td>
+                    <td>国家货币/证券以及伪造的货币/证券，金银珠宝，古玩</td>
+                    <td>美元，人民币，证券，伪造的货币及证券；金条，金币，翡翠玉镯，钻石/宝石制品，象牙制品，古玩，珍贵文物等</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>文件类</td>
+                    <td>真实以及伪造类证件文书</td>
+                    <td>真实以及伪造类证件文书</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>各种危险品</td>
+                    <td>易燃易爆、腐蚀性、毒性、强酸碱性和放射性物品</td>
+                    <td>压缩气体/干冰，带气打火机，活性炭，纯电池，香薰，有机溶剂，含酒精成分的产品等</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>食品</td>
+                    <td>禁运所有食用产品</td>
+                    <td>松果不运送任何食品类产品，包括保健品等任何可食用产品</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>海关限制的其他类物品</td>
+                    <td>大陆出口违法禁寄的物品以及各国海关禁止进口的物品</td>
+                    <td>生物化学制品，植物及种子类，宗教类物品，烟草，违反知识产权和注册商品的物品，间谍专用器材等</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>其它</td>
+                    <td>备注</td>
+                    <td>1. Nike & Adidas品牌运动产品暂时均不能承运
+                        <br>
+                        2. 部分松果到站禁运商品可选择走 <b><span class="color-blue" data-toggle="tooltip" data-placement="top" title="满15公斤送货上门，具体请联系客服"><i class="fas fa-shipping-fast"></i> 松果到家路线 </span></b>，详情请联系松果客服咨询
+                        <br>
+                        3. <b>玻璃、陶瓷、工艺品等易碎物品不建议邮寄。</b>用户实有需求且在同意免责条款后方予承运，但承运过程中发生的破损情况用户自行承担后果，松果不予赔偿及退还运费</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+    <!--下载app-->
+    <!--<div id="download" class="bg-img" style="background-image: url(../image/others/womanPack2.png)">-->
+    <div>
+        <div class="container">
+            <div class="mx-auto margin3auto" style="width: 300px; padding-top: 3em;">
+                <h3 class="color-yellow"><i class="fas fa-arrow-alt-circle-down"></i> Download App</h3>
+            </div>
+            <div class="row">
+                <div class="col-md" align="center">
+                    <p>iOS download</p>
+                    <div class="download">
+                        <img src="../image/QRcode_appStore/iOSqrCode.png" alt="ios qr">
+                        <br>
+                        <a href="https://itunes.apple.com/us/app/pineconego-%E6%9D%BE%E6%9E%9C%E7%BD%91/id1441396496?mt=8"><img src="../image/QRcode_appStore/ios_store.png" alt="ios store"></a>
+                    </div>
+                </div>
+                <div class="col-md" align="center">
+                    <p>Android download</p>
+                    <div class="download">
+                        <img src="../image/QRcode_appStore/androidQRcode.png" alt="android qr">
+                        <br>
+                        <a href="https://play.google.com/store/apps/details?id=com.pineconego.android"><img src="../image/QRcode_appStore/android_store.png" alt="android store"></a>
+                    </div>
+
+                </div>
+            </div>
+            <footer class="pt-4 pt-md-5 border-top">
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="../image/branding/SG_yellow.png" alt="" width="50" height="50">
+                        <small class="d-block mb-3 ">&copy; Bluejay, Inc. 2017-2019</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Cool stuff</a></li>
+                            <li><a class="text-muted" href="#">Random feature</a></li>
+                            <li><a class="text-muted" href="#">Team feature</a></li>
+                            <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                            <li><a class="text-muted" href="#">Another one</a></li>
+                            <li><a class="text-muted" href="#">Last time</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Resource</a></li>
+                            <li><a class="text-muted" href="#">Resource name</a></li>
+                            <li><a class="text-muted" href="#">Another resource</a></li>
+                            <li><a class="text-muted" href="#">Final resource</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                            <li><a class="text-muted" href="#">Team</a></li>
+                            <li><a class="text-muted" href="#">Locations</a></li>
+                            <li><a class="text-muted" href="#">Privacy</a></li>
+                            <li><a class="text-muted" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+<!--footer-->
+    <!--<footer class="pt-4 my-md-5 pt-md-5 border-top">-->
+        <!--<div class="row">-->
+            <!--<div class="col-12 col-md">-->
+                <!--<img class="mb-2" src="../image/branding/SG_yellow.png" alt="" width="50" height="50">-->
+                <!--<small class="d-block mb-3 ">&copy; Bluejay, Inc. 2017-2019</small>-->
+            <!--</div>-->
+            <!--<div class="col-6 col-md">-->
+                <!--<h5>Features</h5>-->
+                <!--<ul class="list-unstyled text-small">-->
+                    <!--<li><a class="text-muted" href="#">Cool stuff</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Random feature</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Team feature</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Stuff for developers</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Another one</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Last time</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="col-6 col-md">-->
+                <!--<h5>Resources</h5>-->
+                <!--<ul class="list-unstyled text-small">-->
+                    <!--<li><a class="text-muted" href="#">Resource</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Resource name</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Another resource</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Final resource</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="col-6 col-md">-->
+                <!--<h5>About</h5>-->
+                <!--<ul class="list-unstyled text-small">-->
+                    <!--<li><a class="text-muted" href="#">Team</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Locations</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Privacy</a></li>-->
+                    <!--<li><a class="text-muted" href="#">Terms</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+    <!--</footer>-->
+
+
+
+
+<!--jquery-->
+<script src="../js/jquery-3.4.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/bootstrap.bundle.min.js"></script>
+
+
+<script>
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+</script>
+
+
+</body>
+</html>
