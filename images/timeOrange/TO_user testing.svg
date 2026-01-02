@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1220px" height="756px" viewBox="0 0 1220 756" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>TO_user testing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="TO_user-testing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Opportunities" transform="translate(5.000000, 635.000000)">
+            <g id="Opportunities-title">
+                <path d="M2.20783956,44.5 L1211,44.5" id="Line-3-Copy-3" stroke="#C2C2C2" stroke-linecap="square"></path>
+                <text id="Improvements" font-family="AvenirNext-DemiBold, Avenir Next" font-size="20" font-weight="500" fill="#464646">
+                    <tspan x="0" y="20">Improvements</tspan>
+                </text>
+            </g>
+            <g id="Opportunities-texts" transform="translate(2.000000, 46.000000)">
+                <g id="Opportunities-text-#4" transform="translate(911.080332, 0.000000)">
+                    <text id="Keep-the-features,-a" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#464646">
+                        <tspan x="22.0867959" y="14">Keep the features, and make a good </tspan>
+                        <tspan x="22.0867959" y="33">looking dashboard for the history trend </tspan>
+                        <tspan x="22.0867959" y="52">reviews and analysis.</tspan>
+                    </text>
+                    <ellipse id="Oval-6-Copy-8" fill="#6CB1D5" cx="5.52169898" cy="10" rx="5.52169898" ry="5"></ellipse>
+                </g>
+                <g id="Opportunities-text-#3" transform="translate(606.282548, 0.000000)">
+                    <text id="Warning-color-for-ov" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#464646">
+                        <tspan x="22.0867959" y="14">Warning color for over spending hours</tspan>
+                    </text>
+                    <ellipse id="Oval-6-Copy-7" fill="#5CBEAB" cx="5.52169898" cy="10" rx="5.52169898" ry="5"></ellipse>
+                </g>
+                <g id="Opportunities-text-#2" transform="translate(302.589104, 0.000000)">
+                    <text id="Set-up-the-alarm-day" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#464646">
+                        <tspan x="22.0867959" y="14">Set up the alarm days </tspan>
+                    </text>
+                    <text id="Set-up-alarm-/-notic" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#464646">
+                        <tspan x="22" y="67">Set up alarm / notice frequency</tspan>
+                    </text>
+                    <text id="Set-up-daily-spendin-Copy" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#464646">
+                        <tspan x="22" y="41">Set up daily spending budgets</tspan>
+                    </text>
+                    <ellipse id="Oval-6-Copy-6" fill="#E6C447" cx="5.52169898" cy="10" rx="5.52169898" ry="5"></ellipse>
+                    <ellipse id="Oval-6-Copy-10" fill="#E6C447" cx="5.52169898" cy="63" rx="5.52169898" ry="5"></ellipse>
+                    <ellipse id="Oval-6-Copy-11" fill="#E6C447" cx="5.52169898" cy="37" rx="5.52169898" ry="5"></ellipse>
+                </g>
+                <g id="Opportunities-text-#1">
+                    <text id="Keep-the-start-intro" font-family="AvenirNext-Regular, Avenir Next" font-size="14" font-weight="normal" fill="#464646">
+                        <tspan x="22.0867959" y="14">Keep the start introduction</tspan>
+                        <tspan x="22.0867959" y="33">More words to describe the steps</tspan>
+                    </text>
+                    <ellipse id="Oval-6-Copy-5" fill="#EFA34C" cx="5.52169898" cy="10" rx="5.52169898" ry="5"></ellipse>
+                </g>
+            </g>
+        </g>
+        <g id="Stages" transform="translate(5.000000, 565.000000)">
+            <g id="Stages-text-box-#4" transform="translate(921.000000, 0.000000)">
+                <rect id="Rectangle-4-Copy-3" fill="#6CB1D5" x="0" y="0" width="290" height="50"></rect>
+                <text id="TREND-ANALYSIS" font-family="AvenirNext-DemiBold, Avenir Next" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="60.2307692" y="30">TREND ANALYSIS</tspan>
+                </text>
+            </g>
+            <g id="Stages-text-box-#3" transform="translate(614.000000, 0.000000)">
+                <rect id="Rectangle-4-Copy-2" fill="#5CBEAB" x="0" y="0" width="290" height="50"></rect>
+                <text id="DAILY-SPENDING-BAR" font-family="AvenirNext-DemiBold, Avenir Next" font-size="20" font-weight="500" fill="#FFFFFF">
+                    <tspan x="36.8076923" y="30">DAILY SPENDING BAR</tspan>
+                </text>
+            </g>
+            <g id="Stages-text-box-#2" transform="translate(307.000000, 0.000000)">
+                <rect id="Rectangle-4-Copy" fill="#E6C447" x="0" y="0" width="290" height="50"></rect>
+                <text id="SET-UP-BUDGETS" font-family="AvenirNext-Regular, Avenir Next" font-size="20" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="50.1923077" y="30">SET UP BUDGETS</tspan>
+                </text>
+            </g>
+            <g id="Stages-text-box-#1">
+                <rect id="Rectangle-4" fill="#EFA34C" x="0" y="0" width="290" height="50"></rect>
+                <text id="START/INTRO" font-family="AvenirNext-Regular, Avenir Next" font-size="20" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="73.6153846" y="30">START/INTRO</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Emotions-graph-&amp;-texts" transform="translate(5.000000, 104.000000)">
+            <g id="Background">
+                <rect id="Holder" stroke="#C2C2C2" fill="#FFFFFF" x="-0.5" y="-0.5" width="1211" height="442"></rect>
+                <path d="M0,25.9274706 C0,25.9274706 42.0825606,183.994157 123.226656,209.396267 C171.435431,224.487995 238.371696,285.89683 281.620232,278.150067 C360.062522,264.099329 368.454821,250.895435 433.934193,250.895435 C466.146692,250.895435 503.50686,220.962174 569.411765,220.962174 C667.882969,220.962174 718.039783,140.503514 807.841352,140.503514 C893.115935,140.503514 1025.73504,238.610559 1084.85467,238.610559 C1154.33646,238.610559 1210,220.962174 1210,220.962174 L1210,441 L0,441 L0,25.9274706 Z" id="Graph" fill="#EDF0EF"></path>
+                <g id="Dividers" transform="translate(296.416819, 0.000000)" stroke="#B5B5B5" stroke-dasharray="2,6" stroke-linecap="square">
+                    <path d="M0.553016453,0.526035898 L0.553016453,440.542833" id="Line-2-Copy"></path>
+                    <path d="M304.712066,0.526035898 L304.712066,440.542833" id="Line-2-Copy-2"></path>
+                    <path d="M607.765082,0.549648482 L607.765082,440.565244" id="Line-2-Copy-3"></path>
+                    <path d="M913.030165,0.526035898 L913.030165,440.542833" id="Line-2-Copy-4"></path>
+                </g>
+                <path d="M2.21206581,221 L1207.23492,221" id="Middle-divider" stroke="#C2C2C2" stroke-linecap="square"></path>
+            </g>
+            <g id="Actions" transform="translate(85.000000, 249.000000)">
+                <g id="Actions-text-box-#6" transform="translate(909.411043, 57.000000)">
+                    <path d="M25.4458078,67 L25.4458078,127" id="Line-3-Copy-9" stroke="#6CB1D5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" fill="#6CB1D5" cx="24.892638" cy="135.5" rx="8.29754601" ry="7.5"></ellipse>
+                    <path d="M33.4416248,56 L28.2116564,64 L22.981688,56 L2.99560453,56 C1.34117783,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.33917095,19 2.99560453,19 L169.593353,19 C171.247779,19 172.588957,20.3387083 172.588957,21.996524 L172.588957,53.003476 C172.588957,54.6584105 171.249786,56 169.593353,56 L33.4416248,56 Z" id="Rectangle-11" fill="#6CB1D5"></path>
+                    <text id="month-review-of-tren" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0633947" y="37">month review of trends</tspan>
+                        <tspan x="11.0633947" y="49">calendar revien the history</tspan>
+                    </text>
+                    <text id="Features" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#6CB1D5">
+                        <tspan x="0" y="14">Features</tspan>
+                    </text>
+                </g>
+                <g id="Actions-text-box-#5" transform="translate(721.333333, 0.000000)">
+                    <path d="M25.4458078,69 L25.4458078,184" id="Line-3-Copy-9" stroke="#5CBEAB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" fill="#5CBEAB" cx="24.892638" cy="192.5" rx="8.29754601" ry="7.5"></ellipse>
+                    <path d="M30.2734709,56 L25.4458078,64 L20.6181446,56 L2.99004019,56 C1.33868659,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.33901159,19 2.99004019,19 L151.897485,19 C153.548839,19 154.887526,20.3387083 154.887526,21.996524 L154.887526,53.003476 C154.887526,54.6584105 153.548514,56 151.897485,56 L30.2734709,56 Z" id="Rectangle-11" fill="#5CBEAB"></path>
+                    <text id="click-to-get-into-ea" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0633947" y="37">click to get into each day’s</tspan>
+                        <tspan x="11.0633947" y="49">review each app’s spendings</tspan>
+                    </text>
+                    <text id="Action" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#5CBEAB">
+                        <tspan x="0" y="14">Action</tspan>
+                    </text>
+                </g>
+                <g id="Actions-text-box-#4" transform="translate(568.658487, 76.000000)">
+                    <path d="M25.4458078,48 L25.4458078,108" id="Line-3-Copy-9" stroke="#5CBEAB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" fill="#5CBEAB" cx="24.892638" cy="116.5" rx="8.29754601" ry="7.5"></ellipse>
+                    <path d="M30.2734709,57 L25.4458078,65 L20.6181446,57 L2.99004019,57 C1.33868659,57 0,55.6612917 0,54.003476 L0,22.996524 C0,21.3415895 1.33901159,20 2.99004019,20 L151.897485,20 C153.548839,20 154.887526,21.3387083 154.887526,22.996524 L154.887526,54.003476 C154.887526,55.6584105 153.548514,57 151.897485,57 L30.2734709,57 Z" id="Rectangle-11" fill="#5CBEAB"></path>
+                    <text id="Daily-spending-bar-W" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0633947" y="37">Daily spending bar </tspan>
+                        <tspan x="11.0633947" y="49">With in/out of the budegt</tspan>
+                    </text>
+                    <text id="Features" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#5CBEAB">
+                        <tspan x="0" y="14">Features</tspan>
+                    </text>
+                </g>
+                <g id="Actions-text-box-#3" transform="translate(400.494888, 5.000000)">
+                    <path d="M25.4458078,68 L25.4458078,179" id="Line-3-Copy-9" stroke="#E6C447" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" fill="#E6C447" cx="24.892638" cy="187.5" rx="8.29754601" ry="7.5"></ellipse>
+                    <path d="M37.5652538,56 L31.5306748,64 L25.4960959,56 L3.00228589,56 C1.34416918,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.33972419,19 3.00228589,19 L190.607121,19 C192.265238,19 193.609407,20.3387083 193.609407,21.996524 L193.609407,53.003476 C193.609407,54.6584105 192.269683,56 190.607121,56 L37.5652538,56 Z" id="Rectangle-11" fill="#E6C447"></path>
+                    <text id="Change-the-budgets-a" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0633947" y="37">Change the budgets anytime </tspan>
+                        <tspan x="11.0633947" y="49">Turn on / off budget alarms</tspan>
+                    </text>
+                    <text id="Action" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#E6C447">
+                        <tspan x="0" y="14">Action</tspan>
+                    </text>
+                </g>
+                <g id="Actions-text-box-#2" transform="translate(232.331288, 57.000000)">
+                    <path d="M25.4458078,67 L25.4458078,127" id="Line-3-Copy-9" stroke="#E6C447" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" fill="#E6C447" cx="24.892638" cy="135.5" rx="8.29754601" ry="7.5"></ellipse>
+                    <path d="M30.2734709,56 L25.4458078,64 L20.6181446,56 L2.99004019,56 C1.33868659,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.33901159,19 2.99004019,19 L151.897485,19 C153.548839,19 154.887526,20.3387083 154.887526,21.996524 L154.887526,53.003476 C154.887526,54.6584105 153.548514,56 151.897485,56 L30.2734709,56 Z" id="Rectangle-11" fill="#E6C447"></path>
+                    <text id="Set-up-daily-spendin" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0633947" y="37">Set up daily spending </tspan>
+                        <tspan x="11.0633947" y="49">budgets / budget workdays</tspan>
+                    </text>
+                    <text id="Features" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#E6C447">
+                        <tspan x="0" y="14">Features</tspan>
+                    </text>
+                </g>
+                <g id="Actions-text-box-#1" transform="translate(0.000000, 56.000000)">
+                    <path d="M25.4458078,67 L25.4458078,127" id="Line-3-Copy-9" stroke="#EFA34C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" fill="#EFA34C" cx="24.892638" cy="135.5" rx="8.29754601" ry="7.5"></ellipse>
+                    <path d="M30.3137014,68 L25.4458078,79 L20.5779141,68 L2.99004019,68 C1.33868659,68 0,66.6639557 0,65.0085917 L0,21.9914083 C0,20.3392991 1.33901159,19 2.99004019,19 L151.897485,19 C153.548839,19 154.887526,20.3360443 154.887526,21.9914083 L154.887526,65.0085917 C154.887526,66.6607009 153.548514,68 151.897485,68 L30.3137014,68 Z" id="Rectangle-11" fill="#EFA34C"></path>
+                    <text id="Login-/-Sign-Up-Intr" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0633947" y="42">Login / Sign Up</tspan>
+                        <tspan x="11.0633947" y="54">Introduction Description</tspan>
+                    </text>
+                    <text id="Features" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#EFA34C">
+                        <tspan x="0" y="14">Features</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Problems" transform="translate(79.000000, 7.000000)">
+                <g id="Problems-text-box-#5" transform="translate(946.088757, 87.000000)">
+                    <path d="M25.4497041,67 L25.4497041,127" id="Line-3-Copy-9" stroke="#EF4C4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" stroke="#EF4C4C" stroke-width="2" cx="24.8964497" cy="135.5" rx="9.29881657" ry="8.5"></ellipse>
+                    <path d="M31.2727273,68.3333333 L26.2857143,79 L21.2987013,68.3333333 L3.00060948,68.3333333 C1.34341862,68.3333333 0,66.9882003 0,65.3400179 L0,21.9933154 C0,20.340153 1.33515149,19 3.00060948,19 L156.999391,19 C158.656581,19 160,20.345133 160,21.9933154 L160,65.3400179 C160,66.9931804 158.664849,68.3333333 156.999391,68.3333333 L31.2727273,68.3333333 Z" id="Rectangle-11" fill="#F5A623"></path>
+                    <text id="Really-love-the-spen" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0650888" y="37">Really love the spending </tspan>
+                        <tspan x="11.0650888" y="49">trends analysis or really hate it</tspan>
+                    </text>
+                    <text id="Feelings" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#EF4C4C">
+                        <tspan x="0" y="14">Feelings</tspan>
+                    </text>
+                </g>
+                <g id="Problems-text-box-#4" transform="translate(725.869822, 0.000000)">
+                    <path d="M25.4497041,67 L25.4497041,127" id="Line-3-Copy-9" stroke="#EF4C4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" stroke="#EF4C4C" stroke-width="2" cx="24.8964497" cy="135.5" rx="9.29881657" ry="8.5"></ellipse>
+                    <path d="M35.5088757,56 L29.8757396,64 L24.2426036,56 L2.99830359,56 C1.34238624,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.34355869,19 2.99830359,19 L178.469152,19 C180.125069,19 181.467456,20.3387083 181.467456,21.996524 L181.467456,53.003476 C181.467456,54.6584105 180.123897,56 178.469152,56 L35.5088757,56 Z" id="Rectangle-11" fill="#F5A623"></path>
+                    <text id="Easy-to-understand-R" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0650888" y="37">Easy to understand </tspan>
+                        <tspan x="11.0650888" y="49">Really love the spending analysis</tspan>
+                    </text>
+                    <text id="Feelings" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#EF4C4C">
+                        <tspan x="0" y="14">Feelings</tspan>
+                    </text>
+                </g>
+                <g id="Problems-text-box-#3" transform="translate(406.088757, 85.000000)">
+                    <path d="M25.4497041,67 L25.4497041,127" id="Line-3-Copy-9" stroke="#EF4C4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" stroke="#EF4C4C" stroke-width="2" cx="24.8964497" cy="135.5" rx="9.29881657" ry="8.5"></ellipse>
+                    <path d="M30.2781065,56 L25.4497041,64 L20.6213018,56 L2.99049804,56 C1.33889158,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.33921663,19 2.99049804,19 L151.920745,19 C153.572351,19 154.911243,20.3387083 154.911243,21.996524 L154.911243,53.003476 C154.911243,54.6584105 153.572026,56 151.920745,56 L30.2781065,56 Z" id="Rectangle-11" fill="#F5A623"></path>
+                    <text id="it-better-force-me-t" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0650888" y="37">it better force me to stop </tspan>
+                        <tspan x="11.0650888" y="49">using my phone</tspan>
+                    </text>
+                    <text id="Feelings" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#EF4C4C">
+                        <tspan x="0" y="14">Feelings</tspan>
+                    </text>
+                </g>
+                <g id="Problems-text-box-#2" transform="translate(227.940828, 72.000000)">
+                    <path d="M25.4497041,66 L25.4497041,177" id="Line-3-Copy-9" stroke="#EF4C4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" stroke="#EF4C4C" stroke-width="2" cx="24.8964497" cy="185.5" rx="9.29881657" ry="8.5"></ellipse>
+                    <path d="M30.2781065,56 L25.4497041,64 L20.6213018,56 L2.99049804,56 C1.33889158,56 0,54.6612917 0,53.003476 L0,21.996524 C0,20.3415895 1.33921663,19 2.99049804,19 L151.920745,19 C153.572351,19 154.911243,20.3387083 154.911243,21.996524 L154.911243,53.003476 C154.911243,54.6584105 153.572026,56 151.920745,56 L30.2781065,56 Z" id="Rectangle-11" fill="#F5A623"></path>
+                    <text id="want-to-have-several" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0650888" y="37">want to have several </tspan>
+                        <tspan x="11.0650888" y="49">budgets on different days</tspan>
+                    </text>
+                    <text id="Problem" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#EF4C4C">
+                        <tspan x="0" y="14">Problem</tspan>
+                    </text>
+                </g>
+                <g id="Problems-text-box-#1" transform="translate(0.000000, 54.000000)">
+                    <path d="M25.4497041,67 L25.4497041,127" id="Line-3-Copy-9" stroke="#EF4C4C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,5"></path>
+                    <ellipse id="Oval-4-Copy-9" stroke="#EF4C4C" stroke-width="2" cx="24.8964497" cy="135.5" rx="9.29881657" ry="8.5"></ellipse>
+                    <path d="M30.4289941,58 L25.4497041,67 L20.4704142,58 L2.99049804,58 C1.33889158,58 0,56.6575317 0,55.004493 L0,21.995507 C0,20.3411342 1.33921663,19 2.99049804,19 L151.920745,19 C153.572351,19 154.911243,20.3424683 154.911243,21.995507 L154.911243,55.004493 C154.911243,56.6588658 153.572026,58 151.920745,58 L30.4289941,58 Z" id="Rectangle-11" fill="#F5A623"></path>
+                    <text id="easy-follow-steps-ea" font-family="AvenirNext-DemiBold, Avenir Next" font-size="11" font-weight="500" line-spacing="12" letter-spacing="-0.400000006" fill="#FFFFFF">
+                        <tspan x="11.0650888" y="37">easy follow steps</tspan>
+                        <tspan x="11.0650888" y="49">easy input</tspan>
+                    </text>
+                    <text id="Feelings" font-family="AvenirNext-DemiBold, Avenir Next" font-size="14" font-weight="500" fill="#EF4C4C">
+                        <tspan x="0" y="14">Feelings</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+        <g id="Top-Section" transform="translate(5.000000, 0.000000)">
+            <g id="Title" font-family="HelveticaNeue, Helvetica Neue" font-weight="normal">
+                <text id="USER-TESTING-RESULTS" font-size="35" fill="#353535">
+                    <tspan x="0" y="62">USER TESTING RESULTS</tspan>
+                </text>
+                <text id="tests-with-12-users" font-size="20" fill="#7C7C7C">
+                    <tspan x="0" y="19">tests with 12 </tspan>
+                    <tspan x="119.28" y="19" font-family="PingFangSC-Regular, PingFang SC">users</tspan>
+                </text>
+            </g>
+            <path d="M0,83 L1210.44703,83" id="Line" stroke="#C7C7C7" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>

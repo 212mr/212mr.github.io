@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1272px" height="699px" viewBox="0 0 1272 699" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="final_v1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Basic-Flowcharts-/-Big-/-Terminal" transform="translate(6.000000, 170.000000)">
+            <g id="Terminal">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60" rx="30"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="52.9125" y="35">Settings</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Terminal" transform="translate(510.000000, 40.000000)">
+            <g id="Terminal">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60" rx="30"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="59.4367188" y="35">Home</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Terminal" transform="translate(346.000000, 170.000000)">
+            <g id="Terminal">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60" rx="30"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="48.8304688" y="35">Spending</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Terminal" transform="translate(1013.000000, 170.000000)">
+            <g id="Terminal">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60" rx="30"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="56.3609375" y="35">History</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Decision" transform="translate(355.000000, 372.000000)">
+            <g id="Decision">
+                <rect id="Rectangle-7" stroke="#A9BBC9" fill="#FFFFFF" transform="translate(71.000000, 71.000000) rotate(45.000000) translate(-71.000000, -71.000000) " x="21" y="21" width="100" height="100"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="31.6265625" y="72">live updates</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Decision" transform="translate(917.000000, 372.000000)">
+            <g id="Decision">
+                <rect id="Rectangle-7" stroke="#A9BBC9" fill="#FFFFFF" transform="translate(71.000000, 71.000000) rotate(45.000000) translate(-71.000000, -71.000000) " x="21" y="21" width="100" height="100"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="44.146875" y="72">analysis </tspan>
+                    <tspan x="35.3664063" y="92">dashboard</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Decision" transform="translate(1125.000000, 372.000000)">
+            <g id="Decision">
+                <rect id="Rectangle-7" stroke="#A9BBC9" fill="#FFFFFF" transform="translate(71.000000, 71.000000) rotate(45.000000) translate(-71.000000, -71.000000) " x="21" y="21" width="100" height="100"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="20.0570313" y="72">dreakdowns on </tspan>
+                    <tspan x="40.5726563" y="92">each app</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(123.000000, 271.000000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="40.3492188" y="35">introduction</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(573.000000, 272.000000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="35.2679688" y="35">within budget</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(1013.000000, 270.000000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="51.4515625" y="35">calendar</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(573.000000, 554.000000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="29.6789063" y="35">over spendings</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(749.000000, 554.000000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="24.7773438" y="35">spending alarms</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(123.000000, 412.500000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="34.9320313" y="35">set up alarms</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Basic-Flowcharts-/-Big-/-Process" transform="translate(123.000000, 554.000000)">
+            <g id="Process">
+                <rect id="Rectangle-6" stroke="#A9BBC9" fill="#FFFFFF" x="0" y="0" width="160" height="60"></rect>
+                <text font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" line-spacing="20" letter-spacing="-0.400000006" fill="#738694">
+                    <tspan x="39.9234375" y="35">daily budget</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#16" transform="translate(704.000000, 302.000000)">
+            <g id="#16">
+                <path d="M2.5,2.5 L116.508125,2.5 C119.817346,2.5 122.5,5.19044983 122.5,8.50525555 L122.5,261.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="2.5" r="2.5"></circle>
+                <path d="M121.426111,260.673204 C120.958836,260.387853 120.580035,260.609686 120.580035,261.165384 L120.580035,264.254043 C120.580035,264.811218 120.965874,265.027276 121.426111,264.746222 L123.914904,263.226388 C124.382179,262.941037 124.375141,262.474092 123.914904,262.193039 L121.426111,260.673204 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2" transform="translate(122.500000, 262.709983) rotate(90.000000) translate(-122.500000, -262.709983) "></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#15" transform="translate(265.000000, 473.000000)">
+            <g id="#15" transform="translate(82.000000, 57.000000) scale(1, -1) translate(-82.000000, -57.000000) ">
+                <path d="M2.5,2.5 L155.509271,2.5 C158.817859,2.5 161.5,5.18313451 161.5,8.49912183 L161.5,110.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="2.5" r="2.5"></circle>
+                <path d="M160.505809,109.595663 C160.038534,109.310312 159.659733,109.532144 159.659733,110.087842 L159.659733,113.176502 C159.659733,113.733676 160.045572,113.949735 160.505809,113.668681 L162.994602,112.148847 C163.461877,111.863495 163.454839,111.396551 162.994602,111.115497 L160.505809,109.595663 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2" transform="translate(161.501078, 111.631363) rotate(90.000000) translate(-161.501078, -111.631363) "></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#9" transform="translate(482.000000, 302.000000)">
+            <g id="#9">
+                <path d="M2.5,140.71875 L32.5,140.71875" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="140.71875" r="2.5"></circle>
+                <path d="M33.5,2.5 L91.5077996,2.5 C94.8172005,2.5 97.5,5.18146835 97.5,8.49402094 L97.5,276.505979 C97.5,279.816385 94.8091842,282.5 91.5075454,282.5 L34.4076608,282.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2" transform="translate(65.500000, 142.500000) scale(-1, 1) translate(-65.500000, -142.500000) "></path>
+                <path d="M97.0061461,280.253239 C96.5388708,279.967888 96.1600693,280.18972 96.1600693,280.745418 L96.1600693,283.834078 C96.1600693,284.391252 96.5459086,284.607311 97.0061461,284.326257 L99.4949384,282.806423 C99.9622138,282.521071 99.955176,282.054127 99.4949384,281.773073 L97.0061461,280.253239 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+                <path d="M97.0061461,0.253239154 C96.5388708,-0.0321124609 96.1600693,0.189720379 96.1600693,0.745418199 L96.1600693,3.83407775 C96.1600693,4.39125235 96.5459086,4.60731065 97.0061461,4.3262568 L99.4949384,2.80642278 C99.9622138,2.52107117 99.955176,2.05412703 99.4949384,1.77307317 L97.0061461,0.253239154 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#9" transform="translate(585.750000, 133.750000) rotate(90.000000) translate(-585.750000, -133.750000) translate(540.250000, -376.250000)">
+            <g id="#9">
+                <path d="M2.5,503.625 L32.5,503.625" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="503.625" r="2.5"></circle>
+                <path d="M33.5,2.5 L82.5093365,2.5 C85.8178886,2.5 88.5,5.19088442 88.5,8.49264787 L88.5,1011.50735 C88.5,1014.817 85.8112228,1017.5 82.49035,1017.5 L34.280021,1017.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2" transform="translate(61.000000, 510.000000) scale(-1, 1) translate(-61.000000, -510.000000) "></path>
+                <path d="M88.0061461,1015.25324 C87.5388708,1014.96789 87.1600693,1015.18972 87.1600693,1015.74542 L87.1600693,1018.83408 C87.1600693,1019.39125 87.5459086,1019.60731 88.0061461,1019.32626 L90.4949384,1017.80642 C90.9622138,1017.52107 90.955176,1017.05413 90.4949384,1016.77307 L88.0061461,1015.25324 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+                <path d="M88.0061461,0.253239154 C87.5388708,-0.0321124609 87.1600693,0.189720379 87.1600693,0.745418199 L87.1600693,3.83407775 C87.1600693,4.39125235 87.5459086,4.60731065 88.0061461,4.3262568 L90.4949384,2.80642278 C90.9622138,2.52107117 90.955176,2.05412703 90.4949384,1.77307317 L88.0061461,0.253239154 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#9" transform="translate(76.000000, 300.000000)">
+            <g id="#9">
+                <path d="M2.5,140.71875 L32.5,140.71875" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="140.71875" r="2.5"></circle>
+                <path d="M33.5,2.5 L46.5013241,2.5 C49.8143013,2.5 52.5,5.18146835 52.5,8.49402094 L52.5,276.505979 C52.5,279.816385 49.8163706,282.5 46.4962536,282.5 L33.7694618,282.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2" transform="translate(43.000000, 142.500000) scale(-1, 1) translate(-43.000000, -142.500000) "></path>
+                <path d="M52.0061461,280.253239 C51.5388708,279.967888 51.1600693,280.18972 51.1600693,280.745418 L51.1600693,283.834078 C51.1600693,284.391252 51.5459086,284.607311 52.0061461,284.326257 L54.4949384,282.806423 C54.9622138,282.521071 54.955176,282.054127 54.4949384,281.773073 L52.0061461,280.253239 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+                <path d="M52.0061461,0.253239154 C51.5388708,-0.0321124609 51.1600693,0.189720379 51.1600693,0.745418199 L51.1600693,3.83407775 C51.1600693,4.39125235 51.5459086,4.60731065 52.0061461,4.3262568 L54.4949384,2.80642278 C54.9622138,2.52107117 54.955176,2.05412703 54.4949384,1.77307317 L52.0061461,0.253239154 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#9" transform="translate(1093.000000, 362.500000) rotate(90.000000) translate(-1093.000000, -362.500000) translate(1043.000000, 256.000000)">
+            <g id="#9">
+                <path d="M2.5,105.16875 L32.5,105.16875" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="105.16875" r="2.5"></circle>
+                <path d="M33.5,2.5 L91.5077996,2.5 C94.8172005,2.5 97.5,5.18684729 97.5,8.50071716 L97.5,204.499283 C97.5,207.813387 94.8091842,210.5 91.5075454,210.5 L34.4076608,210.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2" transform="translate(65.500000, 106.500000) scale(-1, 1) translate(-65.500000, -106.500000) "></path>
+                <path d="M97.0061461,208.253239 C96.5388708,207.967888 96.1600693,208.18972 96.1600693,208.745418 L96.1600693,211.834078 C96.1600693,212.391252 96.5459086,212.607311 97.0061461,212.326257 L99.4949384,210.806423 C99.9622138,210.521071 99.955176,210.054127 99.4949384,209.773073 L97.0061461,208.253239 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+                <path d="M97.0061461,0.253239154 C96.5388708,-0.0321124609 96.1600693,0.189720379 96.1600693,0.745418199 L96.1600693,3.83407775 C96.1600693,4.39125235 96.5459086,4.60731065 97.0061461,4.3262568 L99.4949384,2.80642278 C99.9622138,2.52107117 99.955176,2.05412703 99.4949384,1.77307317 L97.0061461,0.253239154 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#9" transform="translate(1091.500000, 534.000000) scale(1, -1) rotate(90.000000) translate(-1091.500000, -534.000000) translate(1038.500000, 427.500000)">
+            <g id="#9">
+                <path d="M2.5,105.16875 L32.5,105.16875" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="105.16875" r="2.5"></circle>
+                <path d="M33.5,2.5 L97.5015788,2.5 C100.814415,2.5 103.5,5.18684729 103.5,8.50071716 L103.5,204.499283 C103.5,207.813387 100.816013,210.5 97.496777,210.5 L34.492754,210.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2" transform="translate(68.500000, 106.500000) scale(-1, 1) translate(-68.500000, -106.500000) "></path>
+                <path d="M103.006146,208.253239 C102.538871,207.967888 102.160069,208.18972 102.160069,208.745418 L102.160069,211.834078 C102.160069,212.391252 102.545909,212.607311 103.006146,212.326257 L105.494938,210.806423 C105.962214,210.521071 105.955176,210.054127 105.494938,209.773073 L103.006146,208.253239 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+                <path d="M103.006146,0.253239154 C102.538871,-0.0321124609 102.160069,0.189720379 102.160069,0.745418199 L102.160069,3.83407775 C102.160069,4.39125235 102.545909,4.60731065 103.006146,4.3262568 L105.494938,2.80642278 C105.962214,2.52107117 105.955176,2.05412703 105.494938,1.77307317 L103.006146,0.253239154 Z" id="Shape" stroke="#F34A00" fill="#FFF3A2"></path>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#3" transform="translate(78.500000, 327.500000) rotate(90.000000) translate(-78.500000, -327.500000) translate(-37.000000, 322.000000)">
+            <g id="#3">
+                <path d="M2.5,5.5 L227.5,5.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="5.5" r="2.5"></circle>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="228.5" cy="5.5" r="2.5"></circle>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#3" transform="translate(426.000000, 309.000000) rotate(90.000000) translate(-426.000000, -309.000000) translate(331.000000, 303.000000)">
+            <g id="#3">
+                <path d="M2.5,6 L186.5,6" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="6" r="2.5"></circle>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="187.5" cy="6" r="2.5"></circle>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#3" transform="translate(1093.500000, 245.000000) rotate(90.000000) translate(-1093.500000, -245.000000) translate(1065.500000, 232.500000)">
+            <g id="#3">
+                <path d="M2.5,12.5 L52.5,12.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="12.5" r="2.5"></circle>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="53.5" cy="12.5" r="2.5"></circle>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#3" transform="translate(891.000000, 579.000000)">
+            <g id="#3">
+                <path d="M2.5,6 L200.5,6" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="6" r="2.5"></circle>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="201.5" cy="6" r="2.5"></circle>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#3" transform="translate(155.000000, 194.000000)">
+            <g id="#3">
+                <path d="M2.5,6 L200.5,6" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="6" r="2.5"></circle>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="201.5" cy="6" r="2.5"></circle>
+            </g>
+        </g>
+        <g id="Arrows-/-Dotted-/-#3" transform="translate(488.000000, 187.000000)">
+            <g id="#3">
+                <path d="M2.5,12.5 L541.5,12.5" id="Line" stroke="#00BCFF" stroke-dasharray="2,2"></path>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="2.5" cy="12.5" r="2.5"></circle>
+                <circle id="Oval-3" stroke="#F34A00" fill="#FFF3A2" cx="542.5" cy="12.5" r="2.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
